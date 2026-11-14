@@ -1,0 +1,333 @@
+﻿ana2.py all.csv lift 0 14543
+
+=== LIFT-OFF: pedal from > 15 % to 0 at > 2500 rpm ===
+  249.87  25km/h rpm  3059 -> [.25 .5 .75 1 1.5 2s]  3001  2982  2674  2362  1700  1878 | kmh@1s  26 | tgt 16.6->idle@0.3s | FCDEC@0.6 FC@0.6 | IG  31.5  44.0  44.0  27.5 | MAP@0.5 20 | ECT 82
+  253.16  38km/h rpm  2543 -> [.25 .5 .75 1 1.5 2s]  2640  2727  2592  2349  1678  1659 | kmh@1s  38 | tgt 17.7->idle@0.29s | FCDEC@0.81 FC@0.81 | IG  19.5  42.0  45.0  27.5 | MAP@0.5 21 | ECT 82
+  272.19  38km/h rpm  2535 -> [.25 .5 .75 1 1.5 2s]  2563  2622  2487  2127  1601  1642 | kmh@1s  38 | tgt 10.5->idle@0.23s | FCDEC@0.74 FC@0.74 | IG  22.0  43.0  44.5  24.5 | MAP@0.5 21 | ECT 83
+  342.94  40km/h rpm  2673 -> [.25 .5 .75 1 1.5 2s]  2669  2579  2675  2515  2547  2473 | kmh@1s  38 | tgt 10.2->idle@0.24s | FCDEC@0.87 FC@0.87 | IG  47.0  46.0  44.5  30.0 | MAP@0.5 21 | ECT 84
+  361.13  21km/h rpm  2605 -> [.25 .5 .75 1 1.5 2s]  2632  2596  2410  2033  1497  1498 | kmh@1s  22 | tgt 14.2->idle@0.29s | FCDEC@0.68 FC@0.68 | IG  27.0  51.0  44.5  23.5 | MAP@0.5 21 | ECT 83
+  369.61  36km/h rpm  3282 -> [.25 .5 .75 1 1.5 2s]  4043  3968  3375  2623  2495  2510 | kmh@1s  37 | tgt 19.3->idle@0.24s | FCDEC@0.58 FC@0.58 | IG   8.0  38.5  39.5  30.0 | MAP@0.5 16 | ECT 83
+  397.33   0km/h rpm  3205 -> [.25 .5 .75 1 1.5 2s]  3736  3282  2964  2632  1947  1322 | kmh@1s   0 | tgt 11.5->idle@0.06s | FCDEC@0.29 FC@0.29 | IG  18.5  40.0  42.5  46.5 | MAP@0.5 10 | ECT 84
+  403.08   0km/h rpm  3454 -> [.25 .5 .75 1 1.5 2s]  3863  3494  3071  2751  2073  1420 | kmh@1s   0 | tgt 14.3->idle@0.06s | FCDEC@0.3 FC@0.06 | IG  16.5  40.0  40.5  47.0 | MAP@0.5 8 | ECT 83
+  415.25  23km/h rpm  2794 -> [.25 .5 .75 1 1.5 2s]  2749  2789  2643  2309  1586  1675 | kmh@1s  24 | tgt 13.8->idle@0.24s | FCDEC@0.78 FC@0.78 | IG  26.5  47.0  45.0  27.0 | MAP@0.5 21 | ECT 83
+  432.00  36km/h rpm  4477 -> [.25 .5 .75 1 1.5 2s]  4332  4254  3888  3401  2777  2965 | kmh@1s  40 | tgt 17.0->idle@0.3s | FCDEC@0.6 FC@0.6 | IG  19.0  40.5  41.0  30.5 | MAP@0.5 16 | ECT 84
+  436.26  64km/h rpm  4213 -> [.25 .5 .75 1 1.5 2s]  4173  4211  4220  4123  4017  3953 | kmh@1s  62 | tgt 16.6->idle@0.28s | FCDEC@0.52 FC@0.52 | IG  18.0  39.0  40.5  25.0 | MAP@0.5 16 | ECT 84
+  485.08  48km/h rpm  2960 -> [.25 .5 .75 1 1.5 2s]  3755  3725  3172  3067  3059  2982 | kmh@1s  47 | tgt 16.6->idle@0.23s | FCDEC@0.58 FC@0.58 | IG   5.0  38.5  39.5  29.0 | MAP@0.5 16 | ECT 83
+  566.10  24km/h rpm  2929 -> [.25 .5 .75 1 1.5 2s]  2868  2863  2677  2375  1554  1751 | kmh@1s  25 | tgt 13.0->idle@0.29s | FCDEC@0.64 FC@0.64 | IG  32.5  45.0  44.5  28.0 | MAP@0.5 20 | ECT 84
+  594.46  21km/h rpm  2636 -> [.25 .5 .75 1 1.5 2s]  2603  2608  2467  2166  1410  1466 | kmh@1s  22 | tgt 10.0->idle@0.24s | FCDEC@0.78 FC@0.78 | IG  41.0  51.5  44.0  25.0 | MAP@0.5 23 | ECT 85
+  672.06  55km/h rpm  3628 -> [.25 .5 .75 1 1.5 2s]  3579  3637  3590  3531  3467  3384 | kmh@1s  53 | tgt 12.5->idle@0.23s | FCDEC@0.6 FC@0.6 | IG  24.0  39.0  39.5  24.5 | MAP@0.5 17 | ECT 82
+  679.26  40km/h rpm  2515 -> [.25 .5 .75 1 1.5 2s]  3489  3511  2894  1913  1637  1741 | kmh@1s  40 | tgt 38.9->idle@0.29s | FCDEC@0.63 FC@0.63 | IG   3.5  38.0  39.5  22.5 | MAP@0.5 17 | ECT 83
+  683.40  47km/h rpm  3873 -> [.25 .5 .75 1 1.5 2s]  4635  4403  3516  2950  3121  3109 | kmh@1s  45 | tgt 19.8->idle@0.29s | FCDEC@0.59 FC@0.59 | IG   8.5  42.0  42.0  29.5 | MAP@0.5 15 | ECT 83
+  695.15  40km/h rpm  2667 -> [.25 .5 .75 1 1.5 2s]  2662  2678  2758  2666  2583  2533 | kmh@1s  40 | tgt 14.3->idle@0.28s | FCDEC@0.68 FC@0.68 | IG  19.5  42.0  45.0  30.5 | MAP@0.5 21 | ECT 83
+  721.54  25km/h rpm  3119 -> [.25 .5 .75 1 1.5 2s]  2984  2848  2601  2283  1742  1844 | kmh@1s  27 | tgt 17.4->idle@0.3s | FCDEC@0.66 FC@0.66 | IG  25.0  43.0  45.0  26.5 | MAP@0.5 19 | ECT 84
+  756.42  38km/h rpm  2549 -> [.25 .5 .75 1 1.5 2s]  2489  2632  2443  2196  1681  1675 | kmh@1s  39 | tgt 23.2->idle@0.29s | FCDEC@0.75 FC@0.75 | IG  16.5  41.0  44.5  25.5 | MAP@0.5 21 | ECT 84
+  763.58  51km/h rpm  2575 -> [.25 .5 .75 1 1.5 2s]  3590  3637  3205  3315  3214  3130 | kmh@1s  50 | tgt 39.8->idle@0.29s | FCDEC@0.58 FC@0.58 | IG   5.0  38.0  39.5  26.5 | MAP@0.5 16 | ECT 85
+  833.09  23km/h rpm  2893 -> [.25 .5 .75 1 1.5 2s]  2811  2754  2537  2175  1967  2023 | kmh@1s  25 | tgt 13.2->idle@0.23s | FCDEC@0.63 FC@0.63 | IG  22.0  43.0  45.5  33.0 | MAP@0.5 19 | ECT 85
+  836.39  41km/h rpm  2723 -> [.25 .5 .75 1 1.5 2s]  2813  2820  2649  2271  1660  1792 | kmh@1s  42 | tgt 13.1->idle@0.23s | FCDEC@0.69 FC@0.69 | IG  19.0  42.5  45.5  26.5 | MAP@0.5 18 | ECT 85
+  874.32  27km/h rpm  3279 -> [.25 .5 .75 1 1.5 2s]  3220  3003  2760  2458  1827  1955 | kmh@1s  28 | tgt 15.2->idle@0.29s | FCDEC@0.63 FC@0.63 | IG  28.0  41.5  44.0  29.0 | MAP@0.5 19 | ECT 85
+
+mapsettle.py v2:40 v3:20:20
+=== 2026-10-30_v2\all.csv
+  N 40 t   352.80 mean rpm  2248 FCDEC 1.03 settle 0.46 after-settle 0.57 | MAP 54 50 43 39 34 30 26 24 22 21 20 19 19 18 18 18 19 18 18 18 18
+  N 40 t   481.05 mean rpm  3001 FCDEC 0.81 settle 0.40 after-settle 0.41 | MAP 83 65 46 36 29 25 22 20 19 18 18 17 16 17 17 17 17
+  N 40 t   542.73 mean rpm  3874 FCDEC 0.69 settle 0.35 after-settle 0.35 | MAP 53 44 35 27 23 21 19 18 18 18 18 18 18 18 17
+  N 40 t   569.85 mean rpm  3076 FCDEC 0.81 settle 0.41 after-settle 0.40 | MAP 73 70 51 39 31 27 24 21 20 19 19 18 18 18 18 17 17
+  N 40 t   574.05 mean rpm  2854 FCDEC 0.81 settle 0.35 after-settle 0.46 | MAP 54 44 39 31 26 24 22 21 19 19 18 18 18 18 17 17 18
+  N 40 t   605.61 mean rpm  3058 FCDEC 0.76 settle 0.35 after-settle 0.41 | MAP 67 52 41 32 26 23 21 20 19 19 19 18 18 17 17 17
+  N 40 t   613.92 mean rpm  3174 FCDEC 0.74 settle 0.34 after-settle 0.40 | MAP 46 40 35 28 25 23 21 20 18 18 18 17 17 17 17
+  N 40 t   623.21 mean rpm  2180 FCDEC 0.86 settle 0.11 after-settle 0.74 | MAP 34 31 28 27 25 24 23 22 20 20 20 19 19 19 19 18 18 18
+  N 40 t   649.62 mean rpm  3373 FCDEC 0.81 settle 0.42 after-settle 0.40 | MAP 73 49 36 30 25 21 19 18 18 18 18 18 18 18 18 18
+  N 40 t   673.07 mean rpm  5229 FCDEC 0.77 settle 0.35 after-settle 0.42 | MAP 95 85 48 32 23 20 17 16 16 16 16 16 17 16 16 17
+  N 40 t   709.96 mean rpm  2407 FCDEC 0.92 settle 0.34 after-settle 0.57 | MAP 58 48 40 34 30 27 25 24 23 21 20 20 20 19 19 19 18 18 18
+  N 40 t   810.26 mean rpm  4494 FCDEC 0.70 settle 0.34 after-settle 0.36 | MAP 93 64 39 29 24 20 17 17 17 16 16 17 17 16 16
+  N 40 t   813.71 mean rpm  3734 FCDEC 0.75 settle 0.41 after-settle 0.35 | MAP 91 71 50 35 26 22 19 17 17 17 17 16 17 17 17 17
+  N 40 t   836.27 mean rpm  2120 FCDEC 1.03 settle 0.40 after-settle 0.62 | MAP 86 70 55 44 37 33 29 25 24 22 20 20 19 19 18 18 18 18 18 18 18
+  N 40 t   859.08 mean rpm  2087 FCDEC 0.97 settle 0.54 after-settle 0.43 | MAP 56 46 40 36 32 28 25 23 21 21 20 19 19 19 19 19 19
+  N 40 t   878.33 mean rpm  1901 FCDEC 1.03 settle 0.52 after-settle 0.52 | MAP 99 95 75 59 51 43 37 33 29 26 25 24 22 21 21 20 20 20 20 20 20
+  N 40 t   888.39 mean rpm  3508 FCDEC 0.81 settle 0.40 after-settle 0.40 | MAP 98 95 61 40 30 23 21 18 17 16 17 17 17 18 18 18 17
+  N 40 t   971.18 mean rpm  2526 FCDEC 0.85 settle 0.51 after-settle 0.34 | MAP 63 56 46 40 35 31 28 25 23 21 20 20 19 19 19 18 18 19
+  N 40 t   977.80 mean rpm  3026 FCDEC 0.94 settle 0.48 after-settle 0.46 | MAP 79 58 44 33 28 24 22 20 19 18 18 17 17 17 16 16 16 16
+  N 40 t  1001.62 mean rpm  3045 FCDEC 0.81 settle 0.40 after-settle 0.41 | MAP 81 71 50 41 32 27 23 20 20 19 19 19 18 18 17 17 18
+  N 40 t  1005.90 mean rpm  2928 FCDEC 0.83 settle 0.47 after-settle 0.36 | MAP 76 67 53 41 32 27 24 22 20 19 18 18 17 17 17 17
+  N 40 t  1014.15 mean rpm  3188 FCDEC 0.79 settle 0.39 after-settle 0.40 | MAP 88 71 50 37 31 26 22 20 19 17 18 17 17 17 17 16 17
+  N 40 t  1023.52 mean rpm  2455 FCDEC 0.97 settle 0.51 after-settle 0.46 | MAP 81 66 53 43 35 31 27 25 23 21 20 20 19 18 18 18 18 18 18 18
+  N 40 t  1030.47 mean rpm  2764 FCDEC 0.85 settle 0.51 after-settle 0.34 | MAP 81 78 57 43 36 31 27 24 22 20 20 20 18 19 19 19 19 18
+  N 40 t  1034.56 mean rpm  2706 FCDEC 0.97 settle 0.40 after-settle 0.57 | MAP 89 69 53 42 35 30 26 23 22 20 20 19 18 18 18 18 18 18 18 18
+  N 40 t  1075.23 mean rpm  2099 FCDEC 1.03 settle 0.52 after-settle 0.51 | MAP 89 70 55 47 38 33 29 26 23 21 21 19 19 19 18 18 18 18 18 18 18
+  N 40 t  1078.66 mean rpm  2395 FCDEC 1.03 settle 0.45 after-settle 0.57 | MAP 86 67 52 43 36 31 28 25 22 21 20 19 19 19 18 18 18 18 18 18
+  N 40 t  1089.59 mean rpm  3237 FCDEC 0.74 settle 0.40 after-settle 0.34 | MAP 69 47 38 31 26 22 20 19 19 18 19 18 18 18 18
+  N 40 t  1134.07 mean rpm  3084 FCDEC 0.75 settle 0.40 after-settle 0.35 | MAP 78 69 50 38 31 26 23 21 20 19 19 19 18 18 18
+  N 40: n=29 median FCDEC 0.81 settle 0.40 after-settle 0.41
+=== 2026-10-30_v3\all.csv
+  N 20 t   249.93 mean rpm  3016 FCDEC 0.54 settle 0.42 after-settle 0.12 | MAP 74 66 46 36 30 26 23 21 20 20 19
+  N 20 t   253.22 mean rpm  2648 FCDEC 0.75 settle 0.52 after-settle 0.23 | MAP 88 82 58 45 36 32 28 25 23 21 20 19 19 19 18 18
+  N 20 t   256.42 mean rpm  2795 FCDEC 0.63 settle 0.46 after-settle 0.17 | MAP 101 82 61 45 35 29 24 21 19 18 17 17 17 17
+  N 20 t   272.25 mean rpm  2566 FCDEC 0.68 settle 0.40 after-settle 0.28 | MAP 84 64 49 40 35 30 26 24 23 21 20 20 20 19 19
+  N 20 t   298.45 mean rpm  2267 FCDEC 0.63 settle 0.52 after-settle 0.11 | MAP 72 62 47 41 35 31 27 25 23 21 21 20 20 20
+  N 20 t   313.36 mean rpm  3053 FCDEC 0.64 settle 0.41 after-settle 0.23 | MAP 98 81 56 41 31 26 23 20 19 18 18 18 18 17
+  N 20 t   361.18 mean rpm  2617 FCDEC 0.63 settle 0.40 after-settle 0.23 | MAP 72 67 49 38 34 29 26 24 23 21 20 20 20 19
+  N 20 t   364.71 mean rpm  2217 FCDEC 0.67 settle 0.50 after-settle 0.17 | MAP 72 56 46 40 33 30 27 25 23 21 20 20 20 19 19
+  N 20 t   369.67 mean rpm  3969 FCDEC 0.52 settle 0.35 after-settle 0.17 | MAP 71 42 29 22 19 17 16 16 16 16 17
+  N 20 t   415.31 mean rpm  2750 FCDEC 0.72 settle 0.42 after-settle 0.30 | MAP 77 64 45 36 31 27 25 21 21 20 19 18 18 18 18
+  N 20 t   432.06 mean rpm  4315 FCDEC 0.54 settle 0.36 after-settle 0.18 | MAP 56 38 28 22 19 17 17 16 16 16
+  N 20 t   436.31 mean rpm  4195 FCDEC 0.47 settle 0.35 after-settle 0.12 | MAP 91 65 42 28 22 19 17 16 16 16 15
+  N 20 t   445.78 mean rpm  3884 FCDEC 0.52 settle 0.41 after-settle 0.11 | MAP 72 52 38 27 23 20 18 16 16 16 16
+  N 20 t   456.12 mean rpm  2523 FCDEC 0.68 settle 0.40 after-settle 0.29 | MAP 85 63 50 41 35 30 27 24 23 21 20 20 20 19 19
+  N 20 t   466.56 mean rpm  2436 FCDEC 0.74 settle 0.51 after-settle 0.23 | MAP 95 74 57 45 37 32 28 25 23 21 20 19 19 18 18 18
+  N 20 t   478.92 mean rpm  2161 FCDEC 0.80 settle 0.51 after-settle 0.28 | MAP 88 80 61 50 41 35 31 27 24 22 21 20 19 19 19 18 18
+  N 20 t   482.74 mean rpm  2168 FCDEC 0.80 settle 0.46 after-settle 0.34 | MAP 87 68 53 43 37 31 27 25 22 21 20 19 19 18 18 18 18
+  N 20 t   485.14 mean rpm  3694 FCDEC 0.52 settle 0.41 after-settle 0.11 | MAP 101 71 42 29 24 20 18 16 16 16 16
+  N 20 t   503.36 mean rpm  2896 FCDEC 0.65 settle 0.42 after-settle 0.23 | MAP 79 61 46 35 29 25 22 19 18 18 17 16 16 16
+  N 20 t   510.48 mean rpm  3101 FCDEC 0.58 settle 0.34 after-settle 0.23 | MAP 57 46 37 28 25 23 20 19 18 17 16 16 16
+  N 20 t   566.15 mean rpm  2888 FCDEC 0.59 settle 0.35 after-settle 0.24 | MAP 71 57 44 36 30 26 23 22 21 20 19 19
+  N 20 t   594.52 mean rpm  2586 FCDEC 0.72 settle 0.42 after-settle 0.30 | MAP 60 51 42 38 33 28 25 23 23 22 21 20 20 19 19
+  N 20 t   612.15 mean rpm  1845 FCDEC 0.79 settle 0.51 after-settle 0.28 | MAP 73 64 51 45 39 34 31 28 26 24 23 22 21 21 21 20 20
+  N 20 t   622.51 mean rpm  2871 FCDEC 0.52 settle 0.35 after-settle 0.17 | MAP 51 43 35 29 26 23 20 20 19 18 17 17
+  N 20 t   634.07 mean rpm  3393 FCDEC 0.52 settle 0.40 after-settle 0.11 | MAP 97 68 45 35 26 21 19 17 17 17 17 17
+  N 20 t   642.16 mean rpm  3733 FCDEC 0.47 settle 0.30 after-settle 0.17 | MAP 76 52 38 28 23 19 18 16 17 17 16
+  N 20 t   654.61 mean rpm  3337 FCDEC 0.58 settle 0.35 after-settle 0.23 | MAP 78 54 41 32 27 23 21 20 18 17 18 18 17
+  N 20 t   672.11 mean rpm  3600 FCDEC 0.54 settle 0.36 after-settle 0.18 | MAP 88 58 39 30 24 20 18 17 17 16 16
+  N 20 t   679.31 mean rpm  3391 FCDEC 0.57 settle 0.40 after-settle 0.17 | MAP 99 92 59 39 30 24 20 18 17 17 17 17 18
+  N 20 t   683.46 mean rpm  4505 FCDEC 0.53 settle 0.29 after-settle 0.24 | MAP 97 63 37 26 22 18 17 16 15 15 16 16
+  N 20 t   703.50 mean rpm  3223 FCDEC 0.58 settle 0.47 after-settle 0.11 | MAP 101 90 60 43 31 26 22 20 18 17 17 17 17
+  N 20 t   708.42 mean rpm  3905 FCDEC 0.53 settle 0.35 after-settle 0.18 | MAP 66 50 34 26 22 19 17 17 16 16 16 17
+  N 20 t   721.60 mean rpm  2938 FCDEC 0.60 settle 0.42 after-settle 0.18 | MAP 89 71 51 40 32 25 23 20 19 20 19 19 18
+  N 20 t   733.12 mean rpm  2874 FCDEC 0.66 settle 0.48 after-settle 0.18 | MAP 100 91 63 47 36 29 24 21 19 18 17 17 16
+  N 20 t   737.48 mean rpm  3402 FCDEC 0.48 settle 0.30 after-settle 0.18 | MAP 42 33 26 23 20 19 18 18 17
+  N 20 t   756.48 mean rpm  2557 FCDEC 0.69 settle 0.52 after-settle 0.17 | MAP 95 84 60 46 39 33 29 25 23 21 20 19 18 18 18
+  N 20 t   762.39 mean rpm  2189 FCDEC 0.74 settle 0.40 after-settle 0.34 | MAP 69 55 44 37 32 28 26 23 22 20 20 20 19 18 18 18
+  N 20 t   763.64 mean rpm  3514 FCDEC 0.52 settle 0.40 after-settle 0.12 | MAP 99 92 59 39 31 24 20 17 16 16 16 17
+  N 20 t   806.37 mean rpm  2952 FCDEC 0.58 settle 0.35 after-settle 0.23 | MAP 54 41 32 26 23 21 20 19 18 17 16 16
+  N 20 t   816.50 mean rpm  2491 FCDEC 0.69 settle 0.46 after-settle 0.23 | MAP 85 67 49 41 34 29 26 23 21 20 20 19 19 18 19
+  N 20 t   833.15 mean rpm  2806 FCDEC 0.57 settle 0.45 after-settle 0.12 | MAP 70 53 40 33 27 24 22 20 19 19 20 18
+  N 20 t   836.45 mean rpm  2792 FCDEC 0.63 settle 0.46 after-settle 0.17 | MAP 95 71 53 43 34 28 24 21 19 18 18 18 18 18
+  N 20 t   838.78 mean rpm  1884 FCDEC 0.79 settle 0.51 after-settle 0.28 | MAP 81 64 55 46 39 35 31 27 25 23 22 21 20 20 19 19 20
+  N 20 t   840.31 mean rpm  2885 FCDEC 0.62 settle 0.45 after-settle 0.17 | MAP 98 75 54 40 33 26 23 20 18 17 16 17 17 17
+  N 20 t   847.18 mean rpm  2735 FCDEC 0.63 settle 0.40 after-settle 0.23 | MAP 71 55 42 34 30 26 23 21 20 20 18 19 18 18
+  N 20 t   861.12 mean rpm  2452 FCDEC 0.68 settle 0.40 after-settle 0.28 | MAP 55 48 43 37 31 27 25 23 22 21 20 20 19 20 19
+  N 20 t   874.37 mean rpm  3140 FCDEC 0.58 settle 0.34 after-settle 0.23 | MAP 77 63 42 34 28 25 21 20 20 19 18 18 19
+  N 20: n=47 median FCDEC 0.62 settle 0.41 after-settle 0.18
+
+tickfit2.py baseline:80 v2:40 v3:20:20
+time: a = 0.42 s, param = 0.0101, rms = 0.099 s, n = 110
+   26-10-25_baseline\all.csv  1031.25 N 80 rpm0  2334 mean  2196 delay 1.26 model 1.23
+   26-10-25_baseline\all.csv  1041.39 N 80 rpm0  2504 mean  2285 delay 1.37 model 1.23
+   26-10-25_baseline\all.csv  1134.13 N 80 rpm0  2790 mean  2560 delay 1.20 model 1.23
+   26-10-25_baseline\all.csv  1164.43 N 80 rpm0  2597 mean  2568 delay 1.32 model 1.23
+   26-10-25_baseline\all.csv  1185.43 N 80 rpm0  2953 mean  2976 delay 1.28 model 1.23
+   26-10-25_baseline\all.csv  1214.51 N 80 rpm0  3030 mean  3015 delay 1.25 model 1.23
+   26-10-25_baseline\all.csv  1229.30 N 80 rpm0  2606 mean  2599 delay 1.39 model 1.23
+   26-10-25_baseline\all.csv  1233.22 N 80 rpm0  3109 mean  3121 delay 1.28 model 1.23
+   26-10-25_baseline\all.csv  1267.96 N 80 rpm0  3046 mean  2979 delay 1.36 model 1.23
+   26-10-25_baseline\all.csv  1338.94 N 80 rpm0  2779 mean  2760 delay 1.20 model 1.23
+   26-10-25_baseline\all.csv  1373.59 N 80 rpm0  3404 mean  3259 delay 1.14 model 1.23
+   26-10-25_baseline\all.csv  1396.28 N 80 rpm0  3370 mean  3079 delay 1.12 model 1.23
+   26-10-25_baseline\all.csv  1402.70 N 80 rpm0  3393 mean  3232 delay 1.14 model 1.23
+   26-10-25_baseline\all.csv  1442.02 N 80 rpm0  3542 mean  3342 delay 1.11 model 1.23
+   26-10-25_baseline\all.csv  1447.87 N 80 rpm0  3639 mean  3411 delay 1.09 model 1.23
+   26-10-25_baseline\all.csv  1470.35 N 80 rpm0  3248 mean  3067 delay 1.20 model 1.23
+   26-10-25_baseline\all.csv  1498.18 N 80 rpm0  3125 mean  2893 delay 1.14 model 1.23
+   26-10-25_baseline\all.csv  1639.54 N 40 rpm0  4347 mean  4154 delay 0.70 model 0.82
+   26-10-25_baseline\all.csv  1645.42 N 40 rpm0  4801 mean  4766 delay 0.70 model 0.82
+   26-10-25_baseline\all.csv  1666.06 N 40 rpm0  6038 mean  5570 delay 0.75 model 0.82
+   26-10-25_baseline\all.csv  1674.42 N 40 rpm0  5543 mean  5141 delay 0.77 model 0.82
+   26-10-25_baseline\all.csv  1690.56 N 40 rpm0  6067 mean  5659 delay 0.67 model 0.82
+   26-10-25_baseline\all.csv  1693.26 N 40 rpm0  4246 mean  4182 delay 0.76 model 0.82
+   26-10-25_baseline\all.csv  1737.56 N 80 rpm0  3086 mean  2899 delay 1.11 model 1.23
+   26-10-25_baseline\all.csv  1765.19 N 80 rpm0  3243 mean  2997 delay 1.16 model 1.23
+   26-10-25_baseline\all.csv  1772.60 N 80 rpm0  2727 mean  2683 delay 1.25 model 1.23
+   26-10-25_baseline\all.csv  1813.98 N 40 rpm0  5186 mean  4845 delay 0.71 model 0.82
+   26-10-25_baseline\all.csv  1819.17 N 40 rpm0  4641 mean  4602 delay 0.69 model 0.82
+   26-10-25_baseline\all.csv  1871.38 N 80 rpm0  2876 mean  2674 delay 1.21 model 1.23
+   26-10-25_baseline\all.csv  1916.81 N 80 rpm0  2368 mean  2338 delay 1.31 model 1.23
+   26-10-25_baseline\all.csv  1930.96 N 40 rpm0  4496 mean  4172 delay 0.81 model 0.82
+   26-10-25_baseline\all.csv  1961.45 N 80 rpm0  3164 mean  2994 delay 1.14 model 1.23
+   26-10-25_baseline\all.csv  1968.90 N 80 rpm0  2470 mean  2482 delay 1.41 model 1.23
+   26-10-25_baseline\all.csv  2015.91 N 40 rpm0  5190 mean  5012 delay 0.76 model 0.82
+   2026-10-30_v2\all.csv   352.80 N 40 rpm0  2269 mean  2248 delay 1.03 model 0.82
+   2026-10-30_v2\all.csv   481.05 N 40 rpm0  3214 mean  3001 delay 0.81 model 0.82
+   2026-10-30_v2\all.csv   542.73 N 40 rpm0  4019 mean  3874 delay 0.69 model 0.82
+   2026-10-30_v2\all.csv   569.85 N 40 rpm0  3171 mean  3076 delay 0.81 model 0.82
+   2026-10-30_v2\all.csv   574.05 N 40 rpm0  2831 mean  2854 delay 0.81 model 0.82
+   2026-10-30_v2\all.csv   605.61 N 40 rpm0  3046 mean  3058 delay 0.76 model 0.82
+   2026-10-30_v2\all.csv   613.92 N 40 rpm0  3202 mean  3174 delay 0.74 model 0.82
+   2026-10-30_v2\all.csv   623.21 N 40 rpm0  2194 mean  2180 delay 0.86 model 0.82
+   2026-10-30_v2\all.csv   649.62 N 40 rpm0  3453 mean  3373 delay 0.81 model 0.82
+   2026-10-30_v2\all.csv   673.07 N 40 rpm0  5572 mean  5229 delay 0.77 model 0.82
+   2026-10-30_v2\all.csv   709.96 N 40 rpm0  2419 mean  2407 delay 0.92 model 0.82
+   2026-10-30_v2\all.csv   810.26 N 40 rpm0  4708 mean  4494 delay 0.70 model 0.82
+   2026-10-30_v2\all.csv   813.71 N 40 rpm0  3757 mean  3734 delay 0.75 model 0.82
+   2026-10-30_v2\all.csv   836.27 N 40 rpm0  2116 mean  2120 delay 1.03 model 0.82
+   2026-10-30_v2\all.csv   859.08 N 40 rpm0  2000 mean  2087 delay 0.97 model 0.82
+   2026-10-30_v2\all.csv   878.33 N 40 rpm0  1900 mean  1901 delay 1.03 model 0.82
+   2026-10-30_v2\all.csv   888.39 N 40 rpm0  3006 mean  3508 delay 0.81 model 0.82
+   2026-10-30_v2\all.csv   971.18 N 40 rpm0  2607 mean  2526 delay 0.85 model 0.82
+   2026-10-30_v2\all.csv   977.80 N 40 rpm0  3029 mean  3026 delay 0.94 model 0.82
+   2026-10-30_v2\all.csv  1001.62 N 40 rpm0  3205 mean  3045 delay 0.81 model 0.82
+   2026-10-30_v2\all.csv  1005.90 N 40 rpm0  2938 mean  2928 delay 0.83 model 0.82
+   2026-10-30_v2\all.csv  1014.15 N 40 rpm0  3207 mean  3188 delay 0.79 model 0.82
+   2026-10-30_v2\all.csv  1023.52 N 40 rpm0  2437 mean  2455 delay 0.97 model 0.82
+   2026-10-30_v2\all.csv  1030.47 N 40 rpm0  2788 mean  2764 delay 0.85 model 0.82
+   2026-10-30_v2\all.csv  1034.56 N 40 rpm0  2683 mean  2706 delay 0.97 model 0.82
+   2026-10-30_v2\all.csv  1075.23 N 40 rpm0  2026 mean  2099 delay 1.03 model 0.82
+   2026-10-30_v2\all.csv  1078.66 N 40 rpm0  2376 mean  2395 delay 1.03 model 0.82
+   2026-10-30_v2\all.csv  1089.59 N 40 rpm0  3363 mean  3237 delay 0.74 model 0.82
+   2026-10-30_v2\all.csv  1134.07 N 40 rpm0  3242 mean  3084 delay 0.75 model 0.82
+   2026-10-30_v3\all.csv   249.93 N 20 rpm0  3117 mean  3016 delay 0.54 model 0.62
+   2026-10-30_v3\all.csv   253.22 N 20 rpm0  2556 mean  2648 delay 0.75 model 0.62
+   2026-10-30_v3\all.csv   256.42 N 20 rpm0  2201 mean  2795 delay 0.63 model 0.62
+   2026-10-30_v3\all.csv   272.25 N 20 rpm0  2540 mean  2566 delay 0.68 model 0.62
+   2026-10-30_v3\all.csv   298.45 N 20 rpm0  2252 mean  2267 delay 0.63 model 0.62
+   2026-10-30_v3\all.csv   313.36 N 20 rpm0  2673 mean  3053 delay 0.64 model 0.62
+   2026-10-30_v3\all.csv   361.18 N 20 rpm0  2700 mean  2617 delay 0.63 model 0.62
+   2026-10-30_v3\all.csv   364.71 N 20 rpm0  2165 mean  2217 delay 0.67 model 0.62
+   2026-10-30_v3\all.csv   369.67 N 20 rpm0  3696 mean  3969 delay 0.52 model 0.62
+   2026-10-30_v3\all.csv   415.31 N 20 rpm0  2852 mean  2750 delay 0.72 model 0.62
+   2026-10-30_v3\all.csv   432.06 N 20 rpm0  4509 mean  4315 delay 0.54 model 0.62
+   2026-10-30_v3\all.csv   436.31 N 20 rpm0  4211 mean  4195 delay 0.47 model 0.62
+   2026-10-30_v3\all.csv   445.78 N 20 rpm0  3863 mean  3884 delay 0.52 model 0.62
+   2026-10-30_v3\all.csv   456.12 N 20 rpm0  2530 mean  2523 delay 0.68 model 0.62
+   2026-10-30_v3\all.csv   466.56 N 20 rpm0  2437 mean  2436 delay 0.74 model 0.62
+   2026-10-30_v3\all.csv   478.92 N 20 rpm0  2178 mean  2161 delay 0.80 model 0.62
+   2026-10-30_v3\all.csv   482.74 N 20 rpm0  2194 mean  2168 delay 0.80 model 0.62
+   2026-10-30_v3\all.csv   485.14 N 20 rpm0  3345 mean  3694 delay 0.52 model 0.62
+   2026-10-30_v3\all.csv   503.36 N 20 rpm0  2894 mean  2896 delay 0.65 model 0.62
+   2026-10-30_v3\all.csv   510.48 N 20 rpm0  3061 mean  3101 delay 0.58 model 0.62
+   2026-10-30_v3\all.csv   566.15 N 20 rpm0  2978 mean  2888 delay 0.59 model 0.62
+   2026-10-30_v3\all.csv   594.52 N 20 rpm0  2673 mean  2586 delay 0.72 model 0.62
+   2026-10-30_v3\all.csv   612.15 N 20 rpm0  1866 mean  1845 delay 0.79 model 0.62
+   2026-10-30_v3\all.csv   622.51 N 20 rpm0  2872 mean  2871 delay 0.52 model 0.62
+   2026-10-30_v3\all.csv   634.07 N 20 rpm0  3064 mean  3393 delay 0.52 model 0.62
+   2026-10-30_v3\all.csv   642.16 N 20 rpm0  3714 mean  3733 delay 0.47 model 0.62
+   2026-10-30_v3\all.csv   654.61 N 20 rpm0  3333 mean  3337 delay 0.58 model 0.62
+   2026-10-30_v3\all.csv   672.11 N 20 rpm0  3607 mean  3600 delay 0.54 model 0.62
+   2026-10-30_v3\all.csv   679.31 N 20 rpm0  2866 mean  3391 delay 0.57 model 0.62
+   2026-10-30_v3\all.csv   683.46 N 20 rpm0  4280 mean  4505 delay 0.53 model 0.62
+   2026-10-30_v3\all.csv   703.50 N 20 rpm0  2643 mean  3223 delay 0.58 model 0.62
+   2026-10-30_v3\all.csv   708.42 N 20 rpm0  3922 mean  3905 delay 0.53 model 0.62
+   2026-10-30_v3\all.csv   721.60 N 20 rpm0  3201 mean  2938 delay 0.60 model 0.62
+   2026-10-30_v3\all.csv   733.12 N 20 rpm0  2189 mean  2874 delay 0.66 model 0.62
+   2026-10-30_v3\all.csv   737.48 N 20 rpm0  3357 mean  3402 delay 0.48 model 0.62
+   2026-10-30_v3\all.csv   756.48 N 20 rpm0  2587 mean  2557 delay 0.69 model 0.62
+   2026-10-30_v3\all.csv   762.39 N 20 rpm0  2168 mean  2189 delay 0.74 model 0.62
+   2026-10-30_v3\all.csv   763.64 N 20 rpm0  2942 mean  3514 delay 0.52 model 0.62
+   2026-10-30_v3\all.csv   806.37 N 20 rpm0  2909 mean  2952 delay 0.58 model 0.62
+   2026-10-30_v3\all.csv   816.50 N 20 rpm0  2547 mean  2491 delay 0.69 model 0.62
+   2026-10-30_v3\all.csv   833.15 N 20 rpm0  2934 mean  2806 delay 0.57 model 0.62
+   2026-10-30_v3\all.csv   836.45 N 20 rpm0  2733 mean  2792 delay 0.63 model 0.62
+   2026-10-30_v3\all.csv   838.78 N 20 rpm0  1892 mean  1884 delay 0.79 model 0.62
+   2026-10-30_v3\all.csv   840.31 N 20 rpm0  2393 mean  2885 delay 0.62 model 0.62
+   2026-10-30_v3\all.csv   847.18 N 20 rpm0  2757 mean  2735 delay 0.63 model 0.62
+   2026-10-30_v3\all.csv   861.12 N 20 rpm0  2715 mean  2452 delay 0.68 model 0.62
+   2026-10-30_v3\all.csv   874.37 N 20 rpm0  3351 mean  3140 delay 0.58 model 0.62
+crank: a = 0.44 s, param = 0.0093, rms = 0.066 s, n = 110
+   26-10-25_baseline\all.csv  1031.25 N 80 rpm0  2334 mean  2196 delay 1.26 model 1.46
+   26-10-25_baseline\all.csv  1041.39 N 80 rpm0  2504 mean  2285 delay 1.37 model 1.42
+   26-10-25_baseline\all.csv  1134.13 N 80 rpm0  2790 mean  2560 delay 1.20 model 1.31
+   26-10-25_baseline\all.csv  1164.43 N 80 rpm0  2597 mean  2568 delay 1.32 model 1.31
+   26-10-25_baseline\all.csv  1185.43 N 80 rpm0  2953 mean  2976 delay 1.28 model 1.19
+   26-10-25_baseline\all.csv  1214.51 N 80 rpm0  3030 mean  3015 delay 1.25 model 1.18
+   26-10-25_baseline\all.csv  1229.30 N 80 rpm0  2606 mean  2599 delay 1.39 model 1.30
+   26-10-25_baseline\all.csv  1233.22 N 80 rpm0  3109 mean  3121 delay 1.28 model 1.16
+   26-10-25_baseline\all.csv  1267.96 N 80 rpm0  3046 mean  2979 delay 1.36 model 1.19
+   26-10-25_baseline\all.csv  1338.94 N 80 rpm0  2779 mean  2760 delay 1.20 model 1.25
+   26-10-25_baseline\all.csv  1373.59 N 80 rpm0  3404 mean  3259 delay 1.14 model 1.12
+   26-10-25_baseline\all.csv  1396.28 N 80 rpm0  3370 mean  3079 delay 1.12 model 1.16
+   26-10-25_baseline\all.csv  1402.70 N 80 rpm0  3393 mean  3232 delay 1.14 model 1.13
+   26-10-25_baseline\all.csv  1442.02 N 80 rpm0  3542 mean  3342 delay 1.11 model 1.11
+   26-10-25_baseline\all.csv  1447.87 N 80 rpm0  3639 mean  3411 delay 1.09 model 1.09
+   26-10-25_baseline\all.csv  1470.35 N 80 rpm0  3248 mean  3067 delay 1.20 model 1.17
+   26-10-25_baseline\all.csv  1498.18 N 80 rpm0  3125 mean  2893 delay 1.14 model 1.21
+   26-10-25_baseline\all.csv  1639.54 N 40 rpm0  4347 mean  4154 delay 0.70 model 0.71
+   26-10-25_baseline\all.csv  1645.42 N 40 rpm0  4801 mean  4766 delay 0.70 model 0.67
+   26-10-25_baseline\all.csv  1666.06 N 40 rpm0  6038 mean  5570 delay 0.75 model 0.64
+   26-10-25_baseline\all.csv  1674.42 N 40 rpm0  5543 mean  5141 delay 0.77 model 0.66
+   26-10-25_baseline\all.csv  1690.56 N 40 rpm0  6067 mean  5659 delay 0.67 model 0.64
+   26-10-25_baseline\all.csv  1693.26 N 40 rpm0  4246 mean  4182 delay 0.76 model 0.71
+   26-10-25_baseline\all.csv  1737.56 N 80 rpm0  3086 mean  2899 delay 1.11 model 1.21
+   26-10-25_baseline\all.csv  1765.19 N 80 rpm0  3243 mean  2997 delay 1.16 model 1.18
+   26-10-25_baseline\all.csv  1772.60 N 80 rpm0  2727 mean  2683 delay 1.25 model 1.27
+   26-10-25_baseline\all.csv  1813.98 N 40 rpm0  5186 mean  4845 delay 0.71 model 0.67
+   26-10-25_baseline\all.csv  1819.17 N 40 rpm0  4641 mean  4602 delay 0.69 model 0.68
+   26-10-25_baseline\all.csv  1871.38 N 80 rpm0  2876 mean  2674 delay 1.21 model 1.27
+   26-10-25_baseline\all.csv  1916.81 N 80 rpm0  2368 mean  2338 delay 1.31 model 1.39
+   26-10-25_baseline\all.csv  1930.96 N 40 rpm0  4496 mean  4172 delay 0.81 model 0.71
+   26-10-25_baseline\all.csv  1961.45 N 80 rpm0  3164 mean  2994 delay 1.14 model 1.19
+   26-10-25_baseline\all.csv  1968.90 N 80 rpm0  2470 mean  2482 delay 1.41 model 1.34
+   26-10-25_baseline\all.csv  2015.91 N 40 rpm0  5190 mean  5012 delay 0.76 model 0.66
+   2026-10-30_v2\all.csv   352.80 N 40 rpm0  2269 mean  2248 delay 1.03 model 0.94
+   2026-10-30_v2\all.csv   481.05 N 40 rpm0  3214 mean  3001 delay 0.81 model 0.81
+   2026-10-30_v2\all.csv   542.73 N 40 rpm0  4019 mean  3874 delay 0.69 model 0.73
+   2026-10-30_v2\all.csv   569.85 N 40 rpm0  3171 mean  3076 delay 0.81 model 0.80
+   2026-10-30_v2\all.csv   574.05 N 40 rpm0  2831 mean  2854 delay 0.81 model 0.83
+   2026-10-30_v2\all.csv   605.61 N 40 rpm0  3046 mean  3058 delay 0.76 model 0.81
+   2026-10-30_v2\all.csv   613.92 N 40 rpm0  3202 mean  3174 delay 0.74 model 0.79
+   2026-10-30_v2\all.csv   623.21 N 40 rpm0  2194 mean  2180 delay 0.86 model 0.95
+   2026-10-30_v2\all.csv   649.62 N 40 rpm0  3453 mean  3373 delay 0.81 model 0.77
+   2026-10-30_v2\all.csv   673.07 N 40 rpm0  5572 mean  5229 delay 0.77 model 0.65
+   2026-10-30_v2\all.csv   709.96 N 40 rpm0  2419 mean  2407 delay 0.92 model 0.90
+   2026-10-30_v2\all.csv   810.26 N 40 rpm0  4708 mean  4494 delay 0.70 model 0.69
+   2026-10-30_v2\all.csv   813.71 N 40 rpm0  3757 mean  3734 delay 0.75 model 0.74
+   2026-10-30_v2\all.csv   836.27 N 40 rpm0  2116 mean  2120 delay 1.03 model 0.97
+   2026-10-30_v2\all.csv   859.08 N 40 rpm0  2000 mean  2087 delay 0.97 model 0.97
+   2026-10-30_v2\all.csv   878.33 N 40 rpm0  1900 mean  1901 delay 1.03 model 1.03
+   2026-10-30_v2\all.csv   888.39 N 40 rpm0  3006 mean  3508 delay 0.81 model 0.76
+   2026-10-30_v2\all.csv   971.18 N 40 rpm0  2607 mean  2526 delay 0.85 model 0.88
+   2026-10-30_v2\all.csv   977.80 N 40 rpm0  3029 mean  3026 delay 0.94 model 0.81
+   2026-10-30_v2\all.csv  1001.62 N 40 rpm0  3205 mean  3045 delay 0.81 model 0.81
+   2026-10-30_v2\all.csv  1005.90 N 40 rpm0  2938 mean  2928 delay 0.83 model 0.82
+   2026-10-30_v2\all.csv  1014.15 N 40 rpm0  3207 mean  3188 delay 0.79 model 0.79
+   2026-10-30_v2\all.csv  1023.52 N 40 rpm0  2437 mean  2455 delay 0.97 model 0.89
+   2026-10-30_v2\all.csv  1030.47 N 40 rpm0  2788 mean  2764 delay 0.85 model 0.84
+   2026-10-30_v2\all.csv  1034.56 N 40 rpm0  2683 mean  2706 delay 0.97 model 0.85
+   2026-10-30_v2\all.csv  1075.23 N 40 rpm0  2026 mean  2099 delay 1.03 model 0.97
+   2026-10-30_v2\all.csv  1078.66 N 40 rpm0  2376 mean  2395 delay 1.03 model 0.91
+   2026-10-30_v2\all.csv  1089.59 N 40 rpm0  3363 mean  3237 delay 0.74 model 0.78
+   2026-10-30_v2\all.csv  1134.07 N 40 rpm0  3242 mean  3084 delay 0.75 model 0.80
+   2026-10-30_v3\all.csv   249.93 N 20 rpm0  3117 mean  3016 delay 0.54 model 0.63
+   2026-10-30_v3\all.csv   253.22 N 20 rpm0  2556 mean  2648 delay 0.75 model 0.65
+   2026-10-30_v3\all.csv   256.42 N 20 rpm0  2201 mean  2795 delay 0.63 model 0.64
+   2026-10-30_v3\all.csv   272.25 N 20 rpm0  2540 mean  2566 delay 0.68 model 0.66
+   2026-10-30_v3\all.csv   298.45 N 20 rpm0  2252 mean  2267 delay 0.63 model 0.69
+   2026-10-30_v3\all.csv   313.36 N 20 rpm0  2673 mean  3053 delay 0.64 model 0.62
+   2026-10-30_v3\all.csv   361.18 N 20 rpm0  2700 mean  2617 delay 0.63 model 0.65
+   2026-10-30_v3\all.csv   364.71 N 20 rpm0  2165 mean  2217 delay 0.67 model 0.69
+   2026-10-30_v3\all.csv   369.67 N 20 rpm0  3696 mean  3969 delay 0.52 model 0.58
+   2026-10-30_v3\all.csv   415.31 N 20 rpm0  2852 mean  2750 delay 0.72 model 0.64
+   2026-10-30_v3\all.csv   432.06 N 20 rpm0  4509 mean  4315 delay 0.54 model 0.57
+   2026-10-30_v3\all.csv   436.31 N 20 rpm0  4211 mean  4195 delay 0.47 model 0.57
+   2026-10-30_v3\all.csv   445.78 N 20 rpm0  3863 mean  3884 delay 0.52 model 0.58
+   2026-10-30_v3\all.csv   456.12 N 20 rpm0  2530 mean  2523 delay 0.68 model 0.66
+   2026-10-30_v3\all.csv   466.56 N 20 rpm0  2437 mean  2436 delay 0.74 model 0.67
+   2026-10-30_v3\all.csv   478.92 N 20 rpm0  2178 mean  2161 delay 0.80 model 0.70
+   2026-10-30_v3\all.csv   482.74 N 20 rpm0  2194 mean  2168 delay 0.80 model 0.70
+   2026-10-30_v3\all.csv   485.14 N 20 rpm0  3345 mean  3694 delay 0.52 model 0.59
+   2026-10-30_v3\all.csv   503.36 N 20 rpm0  2894 mean  2896 delay 0.65 model 0.63
+   2026-10-30_v3\all.csv   510.48 N 20 rpm0  3061 mean  3101 delay 0.58 model 0.62
+   2026-10-30_v3\all.csv   566.15 N 20 rpm0  2978 mean  2888 delay 0.59 model 0.63
+   2026-10-30_v3\all.csv   594.52 N 20 rpm0  2673 mean  2586 delay 0.72 model 0.66
+   2026-10-30_v3\all.csv   612.15 N 20 rpm0  1866 mean  1845 delay 0.79 model 0.74
+   2026-10-30_v3\all.csv   622.51 N 20 rpm0  2872 mean  2871 delay 0.52 model 0.63
+   2026-10-30_v3\all.csv   634.07 N 20 rpm0  3064 mean  3393 delay 0.52 model 0.60
+   2026-10-30_v3\all.csv   642.16 N 20 rpm0  3714 mean  3733 delay 0.47 model 0.59
+   2026-10-30_v3\all.csv   654.61 N 20 rpm0  3333 mean  3337 delay 0.58 model 0.61
+   2026-10-30_v3\all.csv   672.11 N 20 rpm0  3607 mean  3600 delay 0.54 model 0.59
+   2026-10-30_v3\all.csv   679.31 N 20 rpm0  2866 mean  3391 delay 0.57 model 0.60
+   2026-10-30_v3\all.csv   683.46 N 20 rpm0  4280 mean  4505 delay 0.53 model 0.56
+   2026-10-30_v3\all.csv   703.50 N 20 rpm0  2643 mean  3223 delay 0.58 model 0.61
+   2026-10-30_v3\all.csv   708.42 N 20 rpm0  3922 mean  3905 delay 0.53 model 0.58
+   2026-10-30_v3\all.csv   721.60 N 20 rpm0  3201 mean  2938 delay 0.60 model 0.63
+   2026-10-30_v3\all.csv   733.12 N 20 rpm0  2189 mean  2874 delay 0.66 model 0.63
+   2026-10-30_v3\all.csv   737.48 N 20 rpm0  3357 mean  3402 delay 0.48 model 0.60
+   2026-10-30_v3\all.csv   756.48 N 20 rpm0  2587 mean  2557 delay 0.69 model 0.66
+   2026-10-30_v3\all.csv   762.39 N 20 rpm0  2168 mean  2189 delay 0.74 model 0.69
+   2026-10-30_v3\all.csv   763.64 N 20 rpm0  2942 mean  3514 delay 0.52 model 0.60
+   2026-10-30_v3\all.csv   806.37 N 20 rpm0  2909 mean  2952 delay 0.58 model 0.63
+   2026-10-30_v3\all.csv   816.50 N 20 rpm0  2547 mean  2491 delay 0.69 model 0.66
+   2026-10-30_v3\all.csv   833.15 N 20 rpm0  2934 mean  2806 delay 0.57 model 0.64
+   2026-10-30_v3\all.csv   836.45 N 20 rpm0  2733 mean  2792 delay 0.63 model 0.64
+   2026-10-30_v3\all.csv   838.78 N 20 rpm0  1892 mean  1884 delay 0.79 model 0.74
+   2026-10-30_v3\all.csv   840.31 N 20 rpm0  2393 mean  2885 delay 0.62 model 0.63
+   2026-10-30_v3\all.csv   847.18 N 20 rpm0  2757 mean  2735 delay 0.63 model 0.64
+   2026-10-30_v3\all.csv   861.12 N 20 rpm0  2715 mean  2452 delay 0.68 model 0.67
+   2026-10-30_v3\all.csv   874.37 N 20 rpm0  3351 mean  3140 delay 0.58 model 0.62

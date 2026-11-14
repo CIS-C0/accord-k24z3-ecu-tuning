@@ -1,0 +1,86 @@
+﻿=== TIP-IN: lag = time target reaches 90 % of its rise  minus  time pedal reaches 90 % of its rise ===
+ 1037.94 stopped   4 km/h   968 rpm pedal  26%  target  4.2->11.3 deg  pedal90 1.30s target90 2.32s  LAG +1.02s  throttle90 2.37s
+ 1142.05 moving   27 km/h  1800 rpm pedal  77%  target  4.8->46.0 deg  pedal90 0.39s target90 0.62s  LAG +0.23s  throttle90 0.62s
+ 1146.67 moving   28 km/h  1856 rpm pedal  33%  target  4.9->17.0 deg  pedal90 0.79s target90 1.65s  LAG +0.86s  throttle90 1.71s
+ 1175.82 moving   20 km/h  2024 rpm pedal  29%  target  5.7->11.6 deg  pedal90 0.91s target90 1.08s  LAG +0.17s  throttle90 1.08s
+ 1180.20 moving   28 km/h  1827 rpm pedal  34%  target  5.0->12.2 deg  pedal90 2.44s target90 2.44s  LAG +0.00s  throttle90 -s
+ 1203.35 moving   19 km/h  2028 rpm pedal  33%  target  5.2->13.1 deg  pedal90 1.06s target90 1.23s  LAG +0.17s  throttle90 1.23s
+ 1225.98 moving   24 km/h  1608 rpm pedal  35%  target  4.4->16.1 deg  pedal90 0.23s target90 1.14s  LAG +0.91s  throttle90 1.20s
+ 1231.72 moving   38 km/h  2505 rpm pedal  69%  target  5.6->47.4 deg  pedal90 0.29s target90 0.57s  LAG +0.28s  throttle90 0.63s
+ 1237.37 moving   33 km/h  2225 rpm pedal  30%  target  5.4->15.0 deg  pedal90 0.69s target90 0.81s  LAG +0.12s  throttle90 0.81s
+ 1259.04 moving   20 km/h  2135 rpm pedal  30%  target  5.4->12.9 deg  pedal90 0.99s target90 1.68s  LAG +0.70s  throttle90 1.74s
+ 1265.13 moving   32 km/h  2107 rpm pedal  39%  target  5.4->22.3 deg  pedal90 0.68s target90 0.96s  LAG +0.28s  throttle90 1.02s
+ 1323.61 stopped   0 km/h   793 rpm pedal  26%  target  3.3->10.7 deg  pedal90 2.27s target90 2.38s  LAG +0.11s  throttle90 2.38s
+ 1328.27 moving   23 km/h  2319 rpm pedal  46%  target  5.5->23.7 deg  pedal90 0.92s target90 1.32s  LAG +0.40s  throttle90 0.97s
+ 1348.13 moving   30 km/h  1974 rpm pedal  28%  target  5.1->12.4 deg  pedal90 1.14s target90 1.25s  LAG +0.11s  throttle90 1.25s
+ 1367.95 moving   23 km/h  2644 rpm pedal  30%  target  5.6->13.9 deg  pedal90 2.11s target90 2.22s  LAG +0.11s  throttle90 2.28s
+ 1392.44 moving    5 km/h   989 rpm pedal  28%  target  4.3->13.6 deg  pedal90 1.17s target90 2.24s  LAG +1.08s  throttle90 2.24s
+ 1397.64 moving   27 km/h  1786 rpm pedal  31%  target  4.7->15.5 deg  pedal90 0.93s target90 1.52s  LAG +0.59s  throttle90 1.58s
+ 1436.96 stopped   0 km/h   784 rpm pedal  26%  target  3.3->10.0 deg  pedal90 2.20s target90 2.20s  LAG +0.00s  throttle90 2.20s
+ 1443.08 moving   30 km/h  2998 rpm pedal  31%  target  5.8->17.3 deg  pedal90 0.88s target90 1.47s  LAG +0.60s  throttle90 1.53s
+ 1467.03 moving   30 km/h  2162 rpm pedal  41%  target  5.8->24.0 deg  pedal90 0.36s target90 1.20s  LAG +0.83s  throttle90 1.02s
+ 1489.82 moving    5 km/h  1053 rpm pedal  33%  target  4.3->16.0 deg  pedal90 1.35s target90 2.21s  LAG +0.86s  throttle90 2.21s
+ 1494.32 moving   28 km/h  2055 rpm pedal  32%  target  5.7->16.8 deg  pedal90 0.40s target90 1.93s  LAG +1.54s  throttle90 1.99s
+ 1531.45 moving   25 km/h  1658 rpm pedal  25%  target  4.5->11.3 deg  pedal90 0.79s target90 1.37s  LAG +0.57s  throttle90 1.37s
+ 1569.73 stopped   0 km/h   760 rpm pedal  68%  target  3.1->42.9 deg  pedal90 0.40s target90 0.40s  LAG +0.00s  throttle90 0.40s
+ 1573.10 stopped   0 km/h   749 rpm pedal  65%  target  3.3->45.6 deg  pedal90 0.40s target90 0.57s  LAG +0.17s  throttle90 0.63s
+ 1577.00 stopped   0 km/h   768 rpm pedal  71%  target  3.2->48.0 deg  pedal90 0.34s target90 0.46s  LAG +0.12s  throttle90 0.52s
+ 1589.20 stopped   0 km/h   782 rpm pedal  61%  target  3.2->36.4 deg  pedal90 0.23s target90 0.35s  LAG +0.12s  throttle90 0.35s
+ 1593.01 stopped   0 km/h   829 rpm pedal  46%  target  3.4->28.9 deg  pedal90 0.18s target90 0.53s  LAG +0.35s  throttle90 0.59s
+ 1597.04 stopped   0 km/h   746 rpm pedal  49%  target  3.6->27.3 deg  pedal90 0.28s target90 0.34s  LAG +0.06s  throttle90 0.39s
+ 1640.59 moving   37 km/h  3223 rpm pedal  98%  target  7.2->65.6 deg  pedal90 1.78s target90 1.78s  LAG +0.00s  throttle90 1.78s
+ 1670.23 moving   10 km/h  1109 rpm pedal  36%  target  4.1->19.5 deg  pedal90 0.78s target90 2.09s  LAG +1.31s  throttle90 2.09s
+ 1675.24 moving   46 km/h  4678 rpm pedal  90%  target  9.3->63.0 deg  pedal90 1.09s target90 1.15s  LAG +0.06s  throttle90 1.21s
+ 1686.02 moving    8 km/h  1079 rpm pedal  56%  target  4.1->38.4 deg  pedal90 2.38s target90 2.44s  LAG +0.06s  throttle90 2.50s
+ 1691.46 moving   50 km/h  4835 rpm pedal  89%  target  9.2->62.2 deg  pedal90 1.16s target90 1.16s  LAG +0.00s  throttle90 1.22s
+ 1766.35 moving   27 km/h  2601 rpm pedal  34%  target  6.6->16.6 deg  pedal90 0.80s target90 1.13s  LAG +0.34s  throttle90 1.19s
+ 1794.74 moving   17 km/h  1128 rpm pedal  64%  target  4.9->40.6 deg  pedal90 1.86s target90 2.09s  LAG +0.23s  throttle90 2.09s
+ 1815.15 moving   43 km/h  3461 rpm pedal  66%  target  7.7->38.9 deg  pedal90 2.43s target90 2.43s  LAG +0.00s  throttle90 2.49s
+ 1829.08 moving   33 km/h  2199 rpm pedal  29%  target  5.9->14.4 deg  pedal90 0.63s target90 0.74s  LAG +0.12s  throttle90 0.74s
+ 1842.21 moving   25 km/h  1685 rpm pedal  35%  target  5.0->17.2 deg  pedal90 0.97s target90 1.25s  LAG +0.28s  throttle90 1.31s
+ 1867.46 moving    7 km/h  1043 rpm pedal  25%  target  5.8->11.2 deg  pedal90 0.74s target90 1.99s  LAG +1.25s  throttle90 1.99s
+ 1875.90 moving   21 km/h  1396 rpm pedal  27%  target  4.1->11.1 deg  pedal90 0.68s target90 1.47s  LAG +0.79s  throttle90 1.53s
+ 1882.06 moving    6 km/h  1093 rpm pedal  35%  target  4.1->18.8 deg  pedal90 1.44s target90 2.12s  LAG +0.68s  throttle90 2.17s
+ 1886.25 moving   28 km/h  2777 rpm pedal  34%  target  5.7->16.4 deg  pedal90 1.02s target90 1.02s  LAG +0.00s  throttle90 1.08s
+ 1894.39 stopped   2 km/h  1015 rpm pedal  33%  target  4.1->15.2 deg  pedal90 1.86s target90 2.42s  LAG +0.56s  throttle90 2.42s
+ 1913.18 moving   21 km/h  1433 rpm pedal  41%  target  4.8->19.4 deg  pedal90 1.35s target90 1.52s  LAG +0.17s  throttle90 1.58s
+ 1925.30 moving    5 km/h  1046 rpm pedal  30%  target  4.1->12.0 deg  pedal90 1.32s target90 1.50s  LAG +0.18s  throttle90 1.56s
+ 1932.06 moving   37 km/h  3441 rpm pedal  97%  target  8.3->65.2 deg  pedal90 1.72s target90 1.78s  LAG +0.06s  throttle90 1.78s
+ 1957.92 moving    5 km/h  1081 rpm pedal  34%  target  4.1->15.0 deg  pedal90 1.61s target90 2.28s  LAG +0.68s  throttle90 2.34s
+ 1962.66 moving   27 km/h  2608 rpm pedal  96%  target  5.6->64.9 deg  pedal90 1.25s target90 1.42s  LAG +0.17s  throttle90 1.48s
+ 1967.49 moving   53 km/h  3396 rpm pedal  86%  target  7.2->59.1 deg  pedal90 0.90s target90 0.96s  LAG +0.06s  throttle90 1.02s
+ 2011.47 stopped   1 km/h   797 rpm pedal  99%  target  3.6->65.7 deg  pedal90 1.92s target90 2.09s  LAG +0.17s  throttle90 2.09s
+ 2016.72 moving   43 km/h  4618 rpm pedal  88%  target  9.3->61.4 deg  pedal90 0.54s target90 0.60s  LAG +0.06s  throttle90 0.66s
+ 2023.46 moving   39 km/h  2480 rpm pedal  66%  target  5.5->43.9 deg  pedal90 0.17s target90 0.17s  LAG +0.00s  throttle90 0.23s
+stopped: n=11 median lag +0.12s  min +0.00  max +1.02
+moving: n=42 median lag +0.23s  min +0.00  max +1.54
+
+=== LIFT-OFF: pedal from > 15 % to 0 at > 2500 rpm ===
+ 1164.38  39km/h rpm  2601 -> [.25 .5 .75 1 1.5 2s]  2604  2607  2657  2499  2337  2055 | kmh@1s  38 | tgt 10.9->idle@0.28s | FCDEC@1.37 FC@1.37 | IG  25.5  45.0  44.5  44.5 | MAP@0.5 21
+ 1185.37  44km/h rpm  2944 -> [.25 .5 .75 1 1.5 2s]  2943  2966  3016  3006  2949  2844 | kmh@1s  45 | tgt 11.9->idle@0.24s | FCDEC@1.34 FC@1.34 | IG  27.5  45.0  44.0  44.5 | MAP@0.5 19
+ 1233.16  47km/h rpm  3113 -> [.25 .5 .75 1 1.5 2s]  3081  3194  3161  3106  2962  2813 | kmh@1s  47 | tgt 15.6->idle@0.29s | FCDEC@1.33 FC@1.33 | IG  18.0  41.0  42.5  43.5 | MAP@0.5 18
+ 1267.90  45km/h rpm  3014 -> [.25 .5 .75 1 1.5 2s]  2945  3020  3003  2965  2899  2846 | kmh@1s  45 | tgt 13.9->idle@0.29s | FCDEC@1.41 FC@1.41 | IG  38.0  46.0  44.0  44.5 | MAP@0.5 18
+ 1373.53  51km/h rpm  3375 -> [.25 .5 .75 1 1.5 2s]  3384  3392  3301  3168  2297  2137 | kmh@1s  51 | tgt 17.9->idle@0.29s | FCDEC@1.2 FC@1.2 | IG  33.0  40.0  40.0  42.5 | MAP@0.5 19
+ 1396.22  27km/h rpm  3322 -> [.25 .5 .75 1 1.5 2s]  3241  3225  3052  2902  1696  1851 | kmh@1s  30 | tgt 11.8->idle@0.24s | FCDEC@1.18 FC@1.18 | IG  36.5  40.5  42.0  45.0 | MAP@0.5 19
+ 1402.64  51km/h rpm  3387 -> [.25 .5 .75 1 1.5 2s]  3355  3336  3242  3083  2157  2160 | kmh@1s  51 | tgt 12.2->idle@0.23s | FCDEC@1.2 FC@1.2 | IG  34.5  40.5  41.0  43.5 | MAP@0.5 19
+ 1465.53  28km/h rpm  3398 -> [.25 .5 .75 1 1.5 2s]  3410  3470  3373  3266  2162  1946 | kmh@1s  28 | tgt 17.3->idle@0.3s | FCDEC@None FC@None | IG  33.0  40.0  39.5  41.5 | MAP@0.5 20
+ 1470.30  49km/h rpm  3235 -> [.25 .5 .75 1 1.5 2s]  3180  3196  3077  2964  1980  2021 | kmh@1s  49 | tgt 15.9->idle@0.29s | FCDEC@1.26 FC@1.26 | IG  27.5  41.5  42.0  44.5 | MAP@0.5 19
+ 1493.00  25km/h rpm  3122 -> [.25 .5 .75 1 1.5 2s]  3085  3056  2931  2775  1698  1956 | kmh@1s  27 | tgt 15.8->idle@0.29s | FCDEC@None FC@None | IG  32.0  43.0  43.5  45.5 | MAP@0.5 19
+ 1573.85   0km/h rpm  3390 -> [.25 .5 .75 1 1.5 2s]  3928  3470  3125  2811  2119  1490 | kmh@1s   0 | tgt 29.4->idle@0.06s | FCDEC@0.34 FC@0.11 | IG  16.5  40.0  41.0  46.5 | MAP@0.5 9
+ 1577.63   0km/h rpm  2861 -> [.25 .5 .75 1 1.5 2s]  3791  3351  3021  2702  2040  1411 | kmh@1s   0 | tgt 38.3->idle@0.06s | FCDEC@0.41 FC@0.41 | IG  16.0  39.0  42.0  46.5 | MAP@0.5 9
+ 1589.91   0km/h rpm  3322 -> [.25 .5 .75 1 1.5 2s]  3869  3494  3149  2721  2100  1518 | kmh@1s   0 | tgt 13.5->idle@0.06s | FCDEC@0.36 FC@0.36 | IG  20.5  40.0  40.5  46.5 | MAP@0.5 8
+ 1593.66   0km/h rpm  3062 -> [.25 .5 .75 1 1.5 2s]  3807  3454  3021  2702  2075  1410 | kmh@1s   0 | tgt 18.2->idle@0.06s | FCDEC@0.36 FC@0.36 | IG  20.0  40.0  41.0  46.5 | MAP@0.5 8
+ 1597.71   0km/h rpm  2851 -> [.25 .5 .75 1 1.5 2s]  3612  3266  2868  2551  1890  1284 | kmh@1s   0 | tgt 19.3->idle@0.06s | FCDEC@0.35 FC@0.35 | IG  20.0  39.5  42.5  46.5 | MAP@0.5 9
+ 1639.48  35km/h rpm  4278 -> [.25 .5 .75 1 1.5 2s]  4168  4109  4008  3651  2450  2625 | kmh@1s  37 | tgt 18.8->idle@0.3s | FCDEC@0.76 FC@0.76 | IG  31.0  39.0  39.5  24.5 | MAP@0.5 16
+ 1645.37  73km/h rpm  4816 -> [.25 .5 .75 1 1.5 2s]  4731  4810  4774  4728  4581  4401 | kmh@1s  71 | tgt 18.2->idle@0.29s | FCDEC@0.76 FC@0.76 | IG  15.0  42.0  43.5  28.0 | MAP@0.5 15
+ 1674.36  45km/h rpm  5478 -> [.25 .5 .75 1 1.5 2s]  5281  5129  4841  4345  3328  3467 | kmh@1s  47 | tgt 37.6->idle@0.3s | FCDEC@0.83 FC@0.83 | IG  11.5  30.5  33.5  27.5 | MAP@0.5 16
+ 1693.20  64km/h rpm  4232 -> [.25 .5 .75 1 1.5 2s]  4093  4237  4152  4145  4034  3949 | kmh@1s  63 | tgt 42.5->idle@0.3s | FCDEC@0.82 FC@0.82 | IG  15.0  38.0  40.5  25.0 | MAP@0.5 16
+ 1813.92  42km/h rpm  5165 -> [.25 .5 .75 1 1.5 2s]  4927  4813  4598  4222  2810  3086 | kmh@1s  43 | tgt 15.3->idle@0.3s | FCDEC@0.77 FC@0.77 | IG  18.0  34.0  36.5  25.5 | MAP@0.5 18
+ 1819.11  70km/h rpm  4629 -> [.25 .5 .75 1 1.5 2s]  4523  4641  4623  4545  4261  3985 | kmh@1s  69 | tgt 28.3->idle@0.29s | FCDEC@0.75 FC@0.75 | IG  12.0  41.0  42.5  27.5 | MAP@0.5 16
+ 1860.45  24km/h rpm  3016 -> [.25 .5 .75 1 1.5 2s]  3033  2978  2805  2677  2136  1671 | kmh@1s  25 | tgt 11.3->idle@0.3s | FCDEC@1.2 FC@1.2 | IG  44.5  42.5  44.0  45.5 | MAP@0.5 19
+ 1871.33  23km/h rpm  2833 -> [.25 .5 .75 1 1.5 2s]  2806  2790  2642  2534  2001  1622 | kmh@1s  23 | tgt 10.9->idle@0.23s | FCDEC@1.27 FC@1.27 | IG  41.0  46.5  45.0  45.0 | MAP@0.5 20
+ 1885.04  27km/h rpm  3262 -> [.25 .5 .75 1 1.5 2s]  3187  3161  3059  2940  2303  1965 | kmh@1s  29 | tgt 16.3->idle@0.28s | FCDEC@None FC@None | IG  29.0  42.0  42.5  44.5 | MAP@0.5 19
+ 1930.90  36km/h rpm  4448 -> [.25 .5 .75 1 1.5 2s]  4189  4155  4040  3782  2389  2717 | kmh@1s  37 | tgt 18.6->idle@0.3s | FCDEC@0.87 FC@0.87 | IG  19.0  39.0  40.0  24.5 | MAP@0.5 17
+ 1961.40  25km/h rpm  3092 -> [.25 .5 .75 1 1.5 2s]  3097  3077  2988  2851  2059  1882 | kmh@1s  27 | tgt 11.4->idle@0.29s | FCDEC@1.2 FC@1.2 | IG  28.5  43.5  43.5  45.5 | MAP@0.5 19
+ 1968.85  59km/h rpm  2532 -> [.25 .5 .75 1 1.5 2s]  2487  2495  2472  2463  2408  2401 | kmh@1s  58 | tgt 30.6->idle@0.28s | FCDEC@1.47 FC@1.47 | IG  11.0  40.0  43.5  44.5 | MAP@0.5 23
+ 2015.85  42km/h rpm  5105 -> [.25 .5 .75 1 1.5 2s]  5165  4963  4777  4293  3180  3345 | kmh@1s  44 | tgt 56.7->idle@0.29s | FCDEC@0.81 FC@0.81 | IG  13.5  31.0  34.5  26.0 | MAP@0.5 16

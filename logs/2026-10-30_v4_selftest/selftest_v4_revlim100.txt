@@ -1,0 +1,92 @@
+21:11:38.526 Flash self test, startup path C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2
+21:11:38.552 PASS key for seed 70A3 | sent 8B93, car accepted 8B93
+21:11:38.555 PASS key for seed 7CBE | sent B186, car accepted B186
+21:11:38.557 PASS key for seed D1B4 | sent 3EC8, car accepted 3EC8
+21:11:38.558 PASS key for seed 8D56 | sent F30E, car accepted F30E
+21:11:38.559 PASS key for seed 1028 | sent 0170, car accepted 0170
+21:11:38.604 PASS stock rwd valid
+21:11:38.604 PASS stock decrypt == stock bin
+21:11:38.691 PASS v1 rwd valid
+21:11:38.702 PASS v1 decrypt == v1 bin
+21:11:38.702 FAIL v1 differs from stock by 2 bytes (0x8400, 0xB2C3) | 20 0x08400,0x0B13F,0x0B141,0x0B2C3,0x1419D,0x1419F,0x141A1-0x141A3,0x15AC3,0x15AC5,0x15AC7,0x15AC9,0x15ACB,0x15C06-0x15C07,0x15C0E-0x15C0F,0x15C32-0x15C33
+21:11:38.702      File: C:\Users\<user>\Desktop\2011_accord_coupe\work\v4_revlim100.rwd
+21:11:38.702      SHA256: 0AC6119B87077F35FAF65F919F0D7FFDEAB095679662F991587725BE8BB8B3B3
+21:11:38.702      rwd file checksum OK (0x06A74ED9)
+21:11:38.702      Supported versions: 37805-R42-A210, 37805-R42-A220, 37805-R42-A230, 37805-R42-A240
+21:11:38.702      Start 0x8000 | size 0xF8000 | data 0xF8000
+21:11:38.702      Part number in firmware: 37805-R42-A240
+21:11:38.702      Internal checksum OK at 0x8400 (0xC7, firmware byte sum = 0 mod 256)
+21:11:38.702      Note: HondaReflashTool checksum algorithm would give 0xC9 (it is wrong for this ECU, do not use its 'fix checksum')
+21:11:38.702      Security keys for 37805-R42-A240: 30383250584C
+21:11:38.702      Differences with stock 37805-R42-A240-M1.RWD.gz: 20 bytes at 0x08400, 0x0B13F, 0x0B141, 0x0B2C3, 0x1419D, 0x1419F, 0x141A1-0x141A3, 0x15AC3, 0x15AC5, 0x15AC7, 0x15AC9, 0x15ACB, 0x15C06-0x15C07, 0x15C0E-0x15C0F, 0x15C32-0x15C33
+21:11:38.753 PASS stock A220 valid (sum 0 mod 256)
+21:11:38.756 PASS stock A240 firmware sum = 0 mod 256
+21:11:38.756 PASS v1 firmware sum = 0 mod 256
+21:11:38.765 PASS fixed checksum after a large change -> sum 0 | chk 0xFF
+21:11:38.771 PASS editor algorithm == ExpectedChecksum256
+21:11:38.806 PASS refuse wrong internal checksum | internal checksum at 0x8400 is 0xC7, expected 0xC6 (firmware byte sum must be 0 mod 256): the ECU would reject this firmware
+21:11:38.848 PASS refuse wrong file checksum | rwd file checksum is wrong (computed 0x06A74ED9, stored 0x07A74ED9)
+21:11:38.875 PASS refuse truncated file | rwd file checksum is wrong (computed 0x06A7257B, stored 0x6A6A6A6A); data length 0xF7F9C does not match header size 0xF8000
+21:11:38.887 PASS refuse wrong header | not a 0x5A rwd file (wrong header)
+21:11:38.921 PASS refuse other ECU calibration | ECU calibration 37805-XXX-A000 is not in the file supported versions; no security keys for 37805-XXX-A000 in ECUS_KEYS.txt (the unlock would use wrong keys)
+21:11:38.952 PASS refuse other CAN address (AT ECU) | file is for CAN address 0x10, ECU is 0x11
+21:11:39.138      full v1 flash: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=496/496 frames=145338
+21:11:39.138 PASS full flash success
+21:11:39.138 PASS full flash data == firmware | written 1015808
+21:11:39.145      NRC on 10 03: success=False erase=False step='diagnostic session (10 03)' msg='negative responce 0x22 (conditions not correct)' blocks=0/0 frames=1
+21:11:39.145 PASS NRC on 10 03 -> stop, not erased
+21:11:39.145      wrong key: success=False erase=False step='security key (27 02)' msg='negative responce 0x35 (invalid key)' blocks=0/0 frames=3
+21:11:39.145 PASS wrong key -> stop, not erased
+21:11:39.145      zero seed: success=False erase=False step='security seed (27 01)' msg='the ECU returned a zero seed' blocks=0/0 frames=2
+21:11:39.145 PASS zero seed -> stop, not erased
+21:11:39.145      low battery: success=False erase=False step='job checks' msg='battery 11.20 V is below 11.5 V, nothing sent' blocks=0/0 frames=0
+21:11:39.145 PASS low battery -> nothing sent
+21:11:39.145      battery unreadable: success=False erase=False step='job checks' msg='battery voltage can't be read, nothing sent' blocks=0/0 frames=0
+21:11:39.145 PASS battery unreadable -> nothing sent
+21:11:39.145      dry run: success=False erase=False step='dry run' msg='DRY RUN: unlock OK, stopped before the programming session' blocks=0/0 frames=3
+21:11:39.145 PASS dry run -> unlock only, no 10 02
+21:11:39.145      unlock mode 03: success=False erase=False step='job checks' msg='unlock mode must be 0x27,0x01 for this ECU' blocks=0/0 frames=0
+21:11:39.145 PASS unlock mode not 01 -> nothing sent
+21:11:39.145      size mismatch: success=False erase=False step='job checks' msg='firmware length does not match the header size' blocks=0/0 frames=0
+21:11:39.145 PASS size mismatch -> nothing sent
+21:11:39.145      NRC on erase: success=False erase=True step='erase memory (31 01 FF 00)' msg='negative responce 0x22 (conditions not correct)' blocks=0/0 frames=5
+21:11:39.145 PASS NRC on erase -> stop, erase flagged
+21:11:39.153      erase pending x8: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=8/8 frames=2354
+21:11:39.153 PASS many 78 pending on erase -> success
+21:11:39.168      no answer to 34: success=False erase=True step='request download (34)' msg='no responce' blocks=0/0 frames=8
+21:11:39.168 PASS no answer to 34 -> stop at request download
+21:11:39.170      flow control overflow on 34: success=False erase=True step='request download (34)' msg='no responce' blocks=0/0 frames=7
+21:11:39.170 PASS flow control overflow -> stop
+21:11:39.172      flow control wait x3: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=8/8 frames=2354
+21:11:39.172 PASS flow control wait -> success, data OK
+21:11:39.172      block size 8: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=8/8 frames=2354
+21:11:39.172 PASS block size 8 -> success, data OK
+21:11:47.731      STmin 1ms: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=2/2 frames=596
+21:11:47.731 PASS STmin 1ms -> success, data OK
+21:11:47.739      block 0x7FE (last block shorter): success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=9/9 frames=2359
+21:11:47.739 PASS last block shorter -> success, data OK
+21:11:47.747      no answer block 3: success=False erase=True step='transfer data (36) block 3/8' msg='data offset 0x1000, no responce' blocks=2/8 frames=887
+21:11:47.747 PASS no answer block 3 -> stop at block 3
+21:11:47.751      wrong counter block 3: success=False erase=True step='transfer data (36) block 3/8' msg='data offset 0x1000, responce 76 04' blocks=2/8 frames=887
+21:11:47.751 PASS wrong counter in answer -> stop at block 3
+21:11:47.755      NRC block 3: success=False erase=True step='transfer data (36) block 3/8' msg='data offset 0x1000, responce 7F 36 72' blocks=2/8 frames=887
+21:11:47.755 PASS NRC block 3 -> stop at block 3
+21:11:47.761      unrelated frames: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=8/8 frames=2354
+21:11:47.761 PASS unrelated frames ignored -> success, data OK
+21:11:47.779      no answer to 37: success=False erase=True step='request transfer exit (37)' msg='no responce' blocks=8/8 frames=2353
+21:11:47.779 PASS no answer to 37 -> stop
+21:11:47.784      NRC on check dependencies: success=False erase=True step='check dependencies (31 01 FF 01)' msg='negative responce 0x22 (conditions not correct)' blocks=8/8 frames=2354
+21:11:47.784 PASS NRC on check dependencies -> stop
+21:11:48.420      busy (21) on 34 x2 and on a 36 block: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=8/8 frames=2651
+21:11:48.420 PASS busy 0x21 -> request sent again, success, data OK
+21:11:49.054      busy (21) x5 on 10 03: success=False erase=False step='diagnostic session (10 03)' msg='negative responce 0x21 (busy, repeat request)' blocks=0/0 frames=4
+21:11:49.054 PASS busy more than 3 times -> stop, not erased
+21:11:49.054      wrong session echo: success=False erase=False step='diagnostic session (10 03)' msg='responce 50 01 does not echo the sub-function 0x03' blocks=0/0 frames=1
+21:11:49.054 PASS 50 01 answer to 10 03 -> stop, not erased
+21:11:49.054      engine running NRC: success=False erase=False step='diagnostic session (10 03)' msg='negative responce 0x83 (engine is running (turn the engine off))' blocks=0/0 frames=1
+21:11:49.054 PASS NRC 0x83 explained | negative responce 0x83 (engine is running (turn the engine off))
+21:11:49.060      baseline small flash: success=True erase=True step='done' msg='all steps answered positively by the ECU' blocks=8/8 frames=2354
+21:11:49.060 PASS baseline small flash success
+21:11:49.060 PASS multi frame responce reassembled | 62 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+21:11:49.060 PASS multi frame request sent and answered | 62 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+21:11:49.060 RESULT: 51 passed, 1 failed

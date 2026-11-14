@@ -1,0 +1,6 @@
+# Raw HDS SnapShot files embed the VIN and dealer data: never commit them
+*.dat
+# Full ECU dumps contain the VIN
+*full*.bin
+__pycache__/
+*.pyc

@@ -1,0 +1,780 @@
+12:12:48.188 --------------------------------------
+12:12:48.210 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+12:12:48.215 DIAG: device name: 
+12:12:48.222 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+12:12:48.226 DIAG: battery voltage (pin 16): 12.38 V
+12:12:48.231 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+12:12:48.244 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+12:12:48.252 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+12:12:48.268 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:12:48.279 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.286     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:12:48.292 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.300     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:12:48.306 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.312     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+12:12:48.325 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.332     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+12:12:48.343 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+12:12:48.352 VIN:XXXXXXXXXXXXXXXXX
+12:12:48.362 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+12:12:48.372 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.380     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:12:48.386 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.395     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+12:12:48.404 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.411     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+12:12:48.419 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:12:48.427     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+12:12:48.437 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+12:12:48.445 ID:37805-R42-A240
+12:12:48.454 Vehicle is Online
+12:13:24.310 DIAG: raw CAN 29bit channel opened
+12:13:24.318 DIAG: pass filter 18 DA F1 10 set
+12:13:24.327 Send: 22 F1 90 F1 81 F1 8C F1 87
+12:13:24.333   TX 10 09 22 F1 90 F1 81 F1
+12:13:24.342   RX 30 00 00 55 55 55 55 55
+12:13:24.351 ISO-TP: flow control 30 00 00 55 55 55 55 55
+12:13:24.358   TX 21 8C F1 87 00 00 00 00
+12:13:24.366   RX 10 2A 62 F1 90 11 31 48
+12:13:24.375   TX 30 00 00 00 00 00 00 00
+12:13:24.387   RX 21 47 43 53 31 41 37 35
+12:13:24.397   RX 22 42 41 38 30 30 31 32
+12:13:24.405   RX 23 33 00 00 00 F1 81 33
+12:13:24.412   RX 24 37 38 30 35 2D 52 34
+12:13:24.421   RX 25 32 2D 41 32 34 30 00
+12:13:24.429   RX 26 00 55 55 55 55 55 55
+12:13:24.441 Received: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+12:13:24.447 J2534 Command result: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+12:15:18.154 DIAG: raw CAN 29bit channel opened
+12:15:18.159 DIAG: pass filter 18 DA F1 10 set
+12:15:18.167 Battery: 12.49 V
+12:15:18.171 Send: 10 03
+12:15:18.177 Received: 50 03
+12:15:18.181 Send: 27 01
+12:15:18.185 Received: 67 01 07 92
+12:15:18.205 Seed 07 92 -> key 2E 2A
+12:15:18.209 Send: 27 02 2E 2A
+12:15:18.214 Received: 67 02
+12:15:18.217 Security Authorized: ECU Unlocked
+12:15:18.221 DRY RUN: unlock OK, stopped before the programming session
+12:15:18.423 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased
+12:15:18.427 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261025_121517.log
+12:17:45.084 --------------------------------------
+12:17:45.113 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+12:17:45.118 DIAG: device name: 
+12:17:45.121 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+12:17:45.126 DIAG: battery voltage (pin 16): 12.54 V
+12:17:45.127 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+12:17:45.137 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+12:17:45.142 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+12:17:45.150 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:17:45.155 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.159     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:17:45.163 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.163     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:17:45.168 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.175     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+12:17:45.181 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.187     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+12:17:45.194 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+12:17:45.200 VIN:XXXXXXXXXXXXXXXXX
+12:17:45.208 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+12:17:45.218 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.225     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:17:45.232 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.242     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+12:17:45.250 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.258     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+12:17:45.267 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:17:45.274     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+12:17:45.282 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+12:17:45.291 ID:37805-R42-A240
+12:17:45.300 Vehicle is Online
+12:17:57.760 DIAG: raw CAN 29bit channel opened
+12:17:57.765 DIAG: pass filter 18 DA F1 10 set
+12:17:57.776 Battery: 12.55 V
+12:17:57.782 Send: 10 03
+12:17:57.790 Received: 50 03
+12:17:57.793 Send: 27 01
+12:17:57.796 Received: 67 01 59 2A
+12:17:57.803 Seed 59 2A -> key A2 9A
+12:17:57.806 Send: 27 02 A2 9A
+12:17:57.812 Received: 67 02
+12:17:57.815 Security Authorized: ECU Unlocked
+12:17:57.819 DRY RUN: unlock OK, stopped before the programming session
+12:17:57.985 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased
+12:17:57.991 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261025_121756.log
+12:19:22.162 DIAG: raw CAN 29bit channel opened
+12:19:22.167 DIAG: pass filter 18 DA F1 10 set
+12:19:22.171 Battery: 12.56 V
+12:19:22.174 Send: 10 03
+12:19:22.179 Received: 50 03
+12:19:22.182 Send: 27 01
+12:19:22.186 Received: 67 01 D7 73
+12:19:22.191 Seed D7 73 -> key 57 A7
+12:19:22.194 Send: 27 02 57 A7
+12:19:22.199 Received: 67 02
+12:19:22.202 Security Authorized: ECU Unlocked
+12:19:22.207 Battery before programming: 12.56 V
+12:19:22.209 Send: 10 02
+12:19:22.216 Response pending (1)...
+12:19:22.524 Received: 50 02
+12:19:22.529 Send: 31 01 FF 00
+12:19:22.534 Response pending (1)...
+12:19:30.634 Received: 71 01 FF 00
+12:19:30.639 Memory erased: 71 01 FF 00
+12:19:30.642 Send: 2E F1 01 2A 6C D7
+12:19:30.647 Received: 6E F1 01
+12:19:30.651 Send: 34 00 44 00 00 80 00 00 0F 80 00
+12:19:30.656 ISO-TP: flow control 30 00 00 55 55 55 55 55
+12:19:30.662 Received: 74 20 08 02
+12:19:30.666 Request download OK | max block 0x802 | 496 blocks
+12:19:47.073 Block 50/496 OK | battery 12.58 V
+12:20:03.632 Block 100/496 OK | battery 12.59 V
+12:20:20.340 Block 150/496 OK | battery 12.59 V
+12:20:37.239 Block 200/496 OK | battery 12.59 V
+12:20:50.888 Block 250/496 OK | battery 12.59 V
+12:21:07.097 Block 300/496 OK | battery 12.59 V
+12:21:23.206 Block 350/496 OK | battery 12.59 V
+12:21:39.344 Block 400/496 OK | battery 12.61 V
+12:21:55.413 Block 450/496 OK | battery 12.59 V
+12:22:10.132 Block 496/496 OK | battery 12.59 V
+12:22:10.136 Transfer finished: 496 blocks in 02:39
+12:22:10.140 Send: 37
+12:22:10.144 Received: 77
+12:22:10.147 Send: 31 01 FF 01
+12:22:10.152 Response pending (1)...
+12:22:10.232 Received: 71 01 FF 01
+12:22:10.235 Check dependencies responce: 71 01 FF 01
+12:22:10.474 FLASH RESULT: SUCCESS | step: done | all steps answered positively by the ECU | blocks 496/496
+12:22:10.482 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261025_121921.log
+12:26:34.141 --------------------------------------
+12:26:34.158 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+12:26:34.172 DIAG: device name: 
+12:26:34.179 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+12:26:34.190 DIAG: battery voltage (pin 16): 12.52 V
+12:26:34.196 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+12:26:34.207 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+12:26:34.218 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+12:26:34.226 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:26:34.232 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:26:34.246     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:26:34.252 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:26:34.261     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:26:34.473 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:34.681 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:34.906 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:35.130 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:35.353 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:35.560 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:35.768 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:35.991 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:36.215 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:36.438 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:36.444 Timeout waiting for response
+12:26:36.458 DIAG: no response to 22 F1 90 on 0x18DA10F1
+12:26:36.467 DIAG: raw receive probe on 29bit channel
+12:26:36.475 DIAG: sent 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:26:36.485 DIAG: read 1/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:26:36.495     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:26:36.506 DIAG: read 2/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:26:36.514     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:26:36.725 DIAG: read 3/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:36.948 DIAG: read 4/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:37.172 DIAG: read 5/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:37.395 DIAG: read 6/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:37.604 DIAG: read 7/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:37.827 DIAG: read 8/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:38.035 DIAG: read 9/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:38.258 DIAG: read 10/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:38.275 DIAG: OBD2 11bit probe (7E0 -> 01 00, then 09 02)
+12:26:38.286 DIAG: sent 0x00 0x00 0x07 0xE0 0x01 0x00 
+12:26:38.297 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:26:38.306     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+12:26:38.609 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:38.928 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:39.248 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:39.566 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:39.575 DIAG: sent 0x00 0x00 0x07 0xE0 0x09 0x02 
+12:26:39.587 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:26:39.596     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+12:26:39.917 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:40.238 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:40.556 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:40.876 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:26:40.897 DIAG: done, log saved to C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\J2534_debug.log
+12:27:50.924 --------------------------------------
+12:27:50.945 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+12:27:50.950 DIAG: device name: 
+12:27:50.954 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+12:27:50.962 DIAG: battery voltage (pin 16): 12.07 V
+12:27:50.968 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+12:27:50.979 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+12:27:50.987 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+12:27:50.997 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:27:51.008 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:27:51.013     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:27:51.020 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:27:51.027     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:27:51.240 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:51.447 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:51.670 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:51.894 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:52.117 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:52.341 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:52.563 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:52.788 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:53.010 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:53.021 Timeout waiting for response
+12:27:53.028 DIAG: no response to 22 F1 90 on 0x18DA10F1
+12:27:53.037 DIAG: raw receive probe on 29bit channel
+12:27:53.049 DIAG: sent 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:27:53.060 DIAG: read 1/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:27:53.067     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:27:53.077 DIAG: read 2/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:27:53.085     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:27:53.297 DIAG: read 3/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:53.521 DIAG: read 4/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:53.729 DIAG: read 5/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:53.951 DIAG: read 6/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:54.159 DIAG: read 7/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:54.382 DIAG: read 8/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:54.605 DIAG: read 9/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:54.813 DIAG: read 10/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:54.829 DIAG: OBD2 11bit probe (7E0 -> 01 00, then 09 02)
+12:27:54.846 DIAG: sent 0x00 0x00 0x07 0xE0 0x01 0x00 
+12:27:54.857 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:27:54.866     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+12:27:55.180 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:55.500 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:55.818 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:56.135 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:56.147 DIAG: sent 0x00 0x00 0x07 0xE0 0x09 0x02 
+12:27:56.156 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:27:56.169     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+12:27:56.485 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:56.804 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:57.109 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:57.428 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:27:57.444 DIAG: done, log saved to C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\J2534_debug.log
+12:28:10.330 --------------------------------------
+12:28:10.355 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+12:28:10.362 DIAG: device name: 
+12:28:10.366 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+12:28:10.375 DIAG: battery voltage (pin 16): 12.04 V
+12:28:10.378 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+12:28:10.394 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+12:28:10.404 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+12:28:10.414 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:28:10.424 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:28:10.427     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:28:10.444 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:28:10.452     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:28:10.665 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:10.888 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:11.112 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:11.332 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:11.556 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:11.780 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:11.988 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:12.212 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:12.436 DIAG: GetMessages(1, 200) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:12.438 Timeout waiting for response
+12:28:12.452 DIAG: no response to 22 F1 90 on 0x18DA10F1
+12:28:12.463 DIAG: raw receive probe on 29bit channel
+12:28:12.474 DIAG: sent 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:28:12.484 DIAG: read 1/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:28:12.492     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:28:12.503 DIAG: read 2/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:28:12.509     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:28:12.723 DIAG: read 3/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:12.947 DIAG: read 4/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:13.169 DIAG: read 5/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:13.394 DIAG: read 6/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:13.602 DIAG: read 7/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:13.825 DIAG: read 8/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:14.033 DIAG: read 9/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:14.257 DIAG: read 10/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:14.278 DIAG: OBD2 11bit probe (7E0 -> 01 00, then 09 02)
+12:28:14.291 DIAG: sent 0x00 0x00 0x07 0xE0 0x01 0x00 
+12:28:14.300 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:28:14.310     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+12:28:14.624 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:14.943 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:15.262 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:15.583 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:15.593 DIAG: sent 0x00 0x00 0x07 0xE0 0x09 0x02 
+12:28:15.603 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+12:28:15.612     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+12:28:15.933 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:16.249 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:16.568 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:16.888 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+12:28:16.907 DIAG: done, log saved to C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\J2534_debug.log
+12:29:39.209 --------------------------------------
+12:29:39.232 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+12:29:39.238 DIAG: device name: 
+12:29:39.244 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+12:29:39.251 DIAG: battery voltage (pin 16): 11.80 V
+12:29:39.257 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+12:29:39.273 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+12:29:39.282 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+12:29:39.297 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:29:39.305 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.310     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:29:39.315 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.316     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+12:29:39.325 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.331     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+12:29:39.339 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.348     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+12:29:39.359 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+12:29:39.366 VIN:XXXXXXXXXXXXXXXXX
+12:29:39.374 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+12:29:39.392 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.396     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+12:29:39.407 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.415     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+12:29:39.420 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.429     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+12:29:39.432 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+12:29:39.441     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+12:29:39.450 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+12:29:39.459 ID:37805-R42-A240
+12:29:39.467 Vehicle is Online
+12:30:24.178 DIAG: raw CAN 29bit channel opened
+12:30:24.191 DIAG: pass filter 18 DA F1 10 set
+12:30:24.201 Send: 23 44 00 00 B2 C2 00 00 00 02
+12:30:24.206   TX 10 0A 23 44 00 00 B2 C2
+12:30:24.220   RX 30 00 00 55 55 55 55 55
+12:30:24.229 ISO-TP: flow control 30 00 00 55 55 55 55 55
+12:30:24.239   TX 21 00 00 00 02 00 00 00
+12:30:24.251   RX 03 7F 23 13 55 55 55 55
+12:30:24.256 Received: 7F 23 13
+12:30:24.269 BAD Response to 23: 0x13 incorrect message length or format
+12:30:24.274 J2534 Command result: 7F 23 13 (negative or none)
+18:02:24.052 --------------------------------------
+18:02:24.077 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+18:02:24.080 DIAG: device name: 
+18:02:24.082 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+18:02:24.088 DIAG: battery voltage (pin 16): 12.77 V
+18:02:24.095 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+18:02:24.099 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+18:02:24.109 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+18:02:24.117 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+18:02:24.128 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.134     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+18:02:24.140 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.145     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+18:02:24.145 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.145     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+18:02:24.158 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.164     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+18:02:24.170 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+18:02:24.177 VIN:XXXXXXXXXXXXXXXXX
+18:02:24.187 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+18:02:24.191 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.191     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+18:02:24.208 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.208     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+18:02:24.224 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.231     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+18:02:24.237 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+18:02:24.244     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+18:02:24.253 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+18:02:24.261 ID:37805-R42-A240
+18:02:24.269 Vehicle is Online
+18:03:15.784 DIAG: raw CAN 29bit channel opened
+18:03:15.784 DIAG: pass filter 18 DA F1 10 set
+18:03:15.803 Send: 22 F1 90 F1 81 F1 8C F1 87
+18:03:15.808   TX 10 09 22 F1 90 F1 81 F1
+18:03:15.818   RX 30 00 00 55 55 55 55 55
+18:03:15.818 ISO-TP: flow control 30 00 00 55 55 55 55 55
+18:03:15.829   TX 21 8C F1 87 00 00 00 00
+18:03:15.837   RX 10 2A 62 F1 90 11 31 48
+18:03:15.845   TX 30 00 00 00 00 00 00 00
+18:03:15.851   RX 21 47 43 53 31 41 37 35
+18:03:15.861   RX 22 42 41 38 30 30 31 32
+18:03:15.868   RX 23 33 00 00 00 F1 81 33
+18:03:15.874   RX 24 37 38 30 35 2D 52 34
+18:03:15.883   RX 25 32 2D 41 32 34 30 00
+18:03:15.893   RX 26 00 55 55 55 55 55 55
+18:03:15.893 Received: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+18:03:15.913 J2534 Command result: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+18:05:35.391 DIAG: raw CAN 29bit channel opened
+18:05:35.396 DIAG: pass filter 18 DA F1 10 set
+18:05:35.401 Battery: 12.85 V
+18:05:35.404 Send: 10 03
+18:05:35.409 Received: 50 03
+18:05:35.412 Send: 27 01
+18:05:35.416 Received: 67 01 26 8B
+18:05:35.435 Seed 26 8B -> key 4A AB
+18:05:35.438 Send: 27 02 4A AB
+18:05:35.443 Received: 67 02
+18:05:35.445 Security Authorized: ECU Unlocked
+18:05:35.448 DRY RUN: unlock OK, stopped before the programming session
+18:05:35.624 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased
+18:05:35.631 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261030_180534.log
+18:08:05.265 DIAG: raw CAN 29bit channel opened
+18:08:05.269 DIAG: pass filter 18 DA F1 10 set
+18:08:05.272 Battery: 12.89 V
+18:08:05.276 Send: 10 03
+18:08:05.279 Received: 50 03
+18:08:05.281 Send: 27 01
+18:08:05.285 Received: 67 01 75 B9
+18:08:05.289 Seed 75 B9 -> key 84 11
+18:08:05.292 Send: 27 02 84 11
+18:08:05.296 Received: 67 02
+18:08:05.300 Security Authorized: ECU Unlocked
+18:08:05.303 Battery before programming: 12.88 V
+18:08:05.305 Send: 10 02
+18:08:05.309 Response pending (1)...
+18:08:05.664 Received: 50 02
+18:08:05.668 Send: 31 01 FF 00
+18:08:05.672 Response pending (1)...
+18:08:13.603 Received: 71 01 FF 00
+18:08:13.608 Memory erased: 71 01 FF 00
+18:08:13.612 Send: 2E F1 01 2A 6C D7
+18:08:13.617 Received: 6E F1 01
+18:08:13.621 Send: 34 00 44 00 00 80 00 00 0F 80 00
+18:08:13.625 ISO-TP: flow control 30 00 00 55 55 55 55 55
+18:08:13.630 Received: 74 20 08 02
+18:08:13.634 Request download OK | max block 0x802 | 496 blocks
+18:08:28.822 Block 50/496 OK | battery 12.95 V
+18:08:44.661 Block 100/496 OK | battery 12.96 V
+18:09:00.269 Block 150/496 OK | battery 12.96 V
+18:09:15.417 Block 200/496 OK | battery 12.97 V
+18:09:30.756 Block 250/496 OK | battery 12.97 V
+18:09:45.755 Block 300/496 OK | battery 12.98 V
+18:10:00.304 Block 350/496 OK | battery 12.98 V
+18:10:13.983 Block 400/496 OK | battery 12.99 V
+18:10:28.052 Block 450/496 OK | battery 12.99 V
+18:10:40.461 Block 496/496 OK | battery 13.01 V
+18:10:40.465 Transfer finished: 496 blocks in 02:26
+18:10:40.467 Send: 37
+18:10:40.472 Received: 77
+18:10:40.476 Send: 31 01 FF 01
+18:10:40.481 Response pending (1)...
+18:10:40.561 Received: 71 01 FF 01
+18:10:40.564 Check dependencies responce: 71 01 FF 01
+18:10:40.731 FLASH RESULT: SUCCESS | step: done | all steps answered positively by the ECU | blocks 496/496
+18:10:40.736 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261030_180804.log
+19:41:42.064 --------------------------------------
+19:41:42.088 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+19:41:42.095 DIAG: device name: 
+19:41:42.096 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+19:41:42.102 DIAG: battery voltage (pin 16): 12.76 V
+19:41:42.111 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+19:41:42.111 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+19:41:42.111 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+19:41:42.132 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+19:41:42.139 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.145     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+19:41:42.148 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.148     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+19:41:42.159 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.159     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+19:41:42.159 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.175     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+19:41:42.175 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+19:41:42.191 VIN:XXXXXXXXXXXXXXXXX
+19:41:42.191 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+19:41:42.208 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.209     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+19:41:42.209 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.224     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+19:41:42.224 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.238     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+19:41:42.250 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+19:41:42.254     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+19:41:42.254 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+19:41:42.270 ID:37805-R42-A240
+19:41:42.277 Vehicle is Online
+19:42:05.153 DIAG: raw CAN 29bit channel opened
+19:42:05.165 DIAG: pass filter 18 DA F1 10 set
+19:42:05.175 Send: 22 F1 90 F1 81 F1 8C F1 87
+19:42:05.183   TX 10 09 22 F1 90 F1 81 F1
+19:42:05.185   RX 30 00 00 55 55 55 55 55
+19:42:05.185 ISO-TP: flow control 30 00 00 55 55 55 55 55
+19:42:05.203   TX 21 8C F1 87 00 00 00 00
+19:42:05.203   RX 10 2A 62 F1 90 11 31 48
+19:42:05.214   TX 30 00 00 00 00 00 00 00
+19:42:05.224   RX 21 47 43 53 31 41 37 35
+19:42:05.231   RX 22 42 41 38 30 30 31 32
+19:42:05.236   RX 23 33 00 00 00 F1 81 33
+19:42:05.247   RX 24 37 38 30 35 2D 52 34
+19:42:05.254   RX 25 32 2D 41 32 34 30 00
+19:42:05.260   RX 26 00 55 55 55 55 55 55
+19:42:05.266 Received: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+19:42:05.266 J2534 Command result: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+19:43:19.104 DIAG: raw CAN 29bit channel opened
+19:43:19.107 DIAG: pass filter 18 DA F1 10 set
+19:43:19.113 Battery: 12.79 V
+19:43:19.117 Send: 10 03
+19:43:19.121 Received: 50 03
+19:43:19.124 Send: 27 01
+19:43:19.128 Received: 67 01 93 D4
+19:43:19.135 Seed 93 D4 -> key 94 B0
+19:43:19.138 Send: 27 02 94 B0
+19:43:19.144 Received: 67 02
+19:43:19.147 Security Authorized: ECU Unlocked
+19:43:19.151 DRY RUN: unlock OK, stopped before the programming session
+19:43:19.315 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased
+19:43:19.319 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261030_194318.log
+19:44:35.654 DIAG: raw CAN 29bit channel opened
+19:44:35.658 DIAG: pass filter 18 DA F1 10 set
+19:44:35.662 Battery: 12.84 V
+19:44:35.666 Send: 10 03
+19:44:35.671 Received: 50 03
+19:44:35.674 Send: 27 01
+19:44:35.678 Received: 67 01 35 44
+19:44:35.683 Seed 35 44 -> key 37 A8
+19:44:35.686 Send: 27 02 37 A8
+19:44:35.691 Received: 67 02
+19:44:35.693 Security Authorized: ECU Unlocked
+19:44:35.697 Battery before programming: 12.84 V
+19:44:35.700 Send: 10 02
+19:44:35.703 Response pending (1)...
+19:44:35.928 Received: 50 02
+19:44:35.933 Send: 31 01 FF 00
+19:44:35.937 Response pending (1)...
+19:44:43.788 Received: 71 01 FF 00
+19:44:43.792 Memory erased: 71 01 FF 00
+19:44:43.796 Send: 2E F1 01 2A 6C D7
+19:44:43.800 Received: 6E F1 01
+19:44:43.804 Send: 34 00 44 00 00 80 00 00 0F 80 00
+19:44:43.809 ISO-TP: flow control 30 00 00 55 55 55 55 55
+19:44:43.814 Received: 74 20 08 02
+19:44:43.818 Request download OK | max block 0x802 | 496 blocks
+19:44:59.377 Block 50/496 OK | battery 12.92 V
+19:45:14.615 Block 100/496 OK | battery 12.94 V
+19:45:29.344 Block 150/496 OK | battery 12.95 V
+19:45:45.723 Block 200/496 OK | battery 12.96 V
+19:46:01.582 Block 250/496 OK | battery 12.99 V
+19:46:18.361 Block 300/496 OK | battery 13.01 V
+19:46:32.899 Block 350/496 OK | battery 13.03 V
+19:46:48.898 Block 400/496 OK | battery 13.03 V
+19:47:05.326 Block 450/496 OK | battery 13.05 V
+19:47:20.635 Block 496/496 OK | battery 13.07 V
+19:47:20.640 Transfer finished: 496 blocks in 02:36
+19:47:20.643 Send: 37
+19:47:20.647 Received: 77
+19:47:20.649 Send: 31 01 FF 01
+19:47:20.654 Response pending (1)...
+19:47:20.736 Received: 71 01 FF 01
+19:47:20.739 Check dependencies responce: 71 01 FF 01
+19:47:20.892 FLASH RESULT: SUCCESS | step: done | all steps answered positively by the ECU | blocks 496/496
+19:47:20.897 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261030_194434.log
+16:25:11.045 --------------------------------------
+16:25:11.061 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+16:25:11.066 DIAG: device name: 
+16:25:11.068 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+16:25:11.077 DIAG: battery voltage (pin 16): 12.58 V
+16:25:11.086 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+16:25:11.098 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+16:25:11.102 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+16:25:11.108 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+16:25:11.108 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.108     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+16:25:11.125 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.125     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+16:25:11.125 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.125     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+16:25:11.141 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.148     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+16:25:11.156 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+16:25:11.162 VIN:XXXXXXXXXXXXXXXXX
+16:25:11.162 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+16:25:11.176 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.176     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+16:25:11.190 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.195     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+16:25:11.198 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.207     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+16:25:11.207 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+16:25:11.221     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+16:25:11.221 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+16:25:11.231 ID:37805-R42-A240
+16:25:11.239 Vehicle is Online
+16:26:44.105 DIAG: raw CAN 29bit channel opened
+16:26:44.121 DIAG: pass filter 18 DA F1 10 set
+16:26:44.121 Send: 22 F1 22 F1 90 F1 81 F1 8C F1 87
+16:26:44.132   TX 10 0B 22 F1 22 F1 90 F1
+16:26:44.139   RX 30 00 00 55 55 55 55 55
+16:26:44.149 ISO-TP: flow control 30 00 00 55 55 55 55 55
+16:26:44.155   TX 21 81 F1 8C F1 87 00 00
+16:26:44.169   RX 10 2A 62 F1 90 11 31 48
+16:26:44.176   TX 30 00 00 00 00 00 00 00
+16:26:44.185   RX 21 47 43 53 31 41 37 35
+16:26:44.185   RX 22 42 41 38 30 30 31 32
+16:26:44.200   RX 23 33 00 00 00 F1 81 33
+16:26:44.200   RX 24 37 38 30 35 2D 52 34
+16:26:44.220   RX 25 32 2D 41 32 34 30 00
+16:26:44.233   RX 26 00 55 55 55 55 55 55
+16:26:44.239 Received: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+16:26:44.248 J2534 Command result: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+16:28:03.099 DIAG: raw CAN 29bit channel opened
+16:28:03.103 DIAG: pass filter 18 DA F1 10 set
+16:28:03.108 Battery: 12.65 V
+16:28:03.111 Send: 10 03
+16:28:03.116 Received: 50 03
+16:28:03.118 Send: 27 01
+16:28:03.122 Received: 67 01 58 C3
+16:28:03.130 Seed 58 C3 -> key CF B7
+16:28:03.133 Send: 27 02 CF B7
+16:28:03.137 Received: 67 02
+16:28:03.139 Security Authorized: ECU Unlocked
+16:28:03.141 DRY RUN: unlock OK, stopped before the programming session
+16:28:03.277 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased
+16:28:03.281 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261101_162802.log
+16:29:36.531 DIAG: raw CAN 29bit channel opened
+16:29:36.535 DIAG: pass filter 18 DA F1 10 set
+16:29:36.538 Battery: 12.67 V
+16:29:36.540 Send: 10 03
+16:29:36.544 Received: 50 03
+16:29:36.547 Send: 27 01
+16:29:36.553 Received: 67 01 3E 46
+16:29:36.557 Seed 3E 46 -> key 3F 22
+16:29:36.559 Send: 27 02 3F 22
+16:29:36.563 Received: 67 02
+16:29:36.566 Security Authorized: ECU Unlocked
+16:29:36.569 Battery before programming: 12.67 V
+16:29:36.571 Send: 10 02
+16:29:36.575 Response pending (1)...
+16:29:36.863 Received: 50 02
+16:29:36.866 Send: 31 01 FF 00
+16:29:36.871 Response pending (1)...
+16:29:44.753 Received: 71 01 FF 00
+16:29:44.756 Memory erased: 71 01 FF 00
+16:29:44.759 Send: 2E F1 01 2A 6C D7
+16:29:44.765 Received: 6E F1 01
+16:29:44.769 Send: 34 00 44 00 00 80 00 00 0F 80 00
+16:29:44.773 ISO-TP: flow control 30 00 00 55 55 55 55 55
+16:29:44.779 Received: 74 20 08 02
+16:29:44.782 Request download OK | max block 0x802 | 496 blocks
+16:29:57.741 Block 50/496 OK | battery 12.72 V
+16:30:10.550 Block 100/496 OK | battery 12.72 V
+16:30:23.179 Block 150/496 OK | battery 12.73 V
+16:30:36.399 Block 200/496 OK | battery 12.73 V
+16:30:53.496 Block 250/496 OK | battery 12.74 V
+16:31:10.896 Block 300/496 OK | battery 12.74 V
+16:31:27.995 Block 350/496 OK | battery 12.76 V
+16:31:44.992 Block 400/496 OK | battery 12.77 V
+16:32:02.031 Block 450/496 OK | battery 12.77 V
+16:32:17.750 Block 496/496 OK | battery 12.77 V
+16:32:17.755 Transfer finished: 496 blocks in 02:32
+16:32:17.758 Send: 37
+16:32:17.763 Received: 77
+16:32:17.768 Send: 31 01 FF 01
+16:32:17.773 Response pending (1)...
+16:32:17.860 Received: 71 01 FF 01
+16:32:17.863 Check dependencies responce: 71 01 FF 01
+16:32:18.006 FLASH RESULT: SUCCESS | step: done | all steps answered positively by the ECU | blocks 496/496
+16:32:18.011 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261101_162935.log
+17:26:55.792 --------------------------------------
+17:26:55.810 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+17:26:55.814 DIAG: device name: 
+17:26:55.817 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+17:26:55.822 DIAG: battery voltage (pin 16): 12.58 V
+17:26:55.827 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+17:26:55.834 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+17:26:55.839 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+17:26:55.847 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+17:26:55.854 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.858     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+17:26:55.862 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.865     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+17:26:55.870 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.874     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+17:26:55.881 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.887     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+17:26:55.894 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+17:26:55.900 VIN:XXXXXXXXXXXXXXXXX
+17:26:55.909 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+17:26:55.915 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.922     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+17:26:55.929 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.936     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x81 
+17:26:55.944 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.951     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+17:26:55.957 DIAG: GetMessages(1, 200) result=STATUS_NOERROR (Function completed successfully.) count=1
+17:26:55.964     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+17:26:55.970 Received:0x18 0xDA 0xF1 0x10 0x62 0xF1 0x81 0x33 0x37 0x38 0x30 0x35 0x2D 0x52 0x34 0x32 0x2D 0x41 0x32 0x34 0x30 0x00 0x00 
+17:26:55.976 ID:37805-R42-A240
+17:26:55.983 Vehicle is Online
+17:27:07.769 DIAG: raw CAN 29bit channel opened
+17:27:07.779 DIAG: pass filter 18 DA F1 10 set
+17:27:07.787 Send: 22 F1 90 F1 81 F1 8C F1 87
+17:27:07.794   TX 10 09 22 F1 90 F1 81 F1
+17:27:07.802   RX 30 00 00 55 55 55 55 55
+17:27:07.808 ISO-TP: flow control 30 00 00 55 55 55 55 55
+17:27:07.815   TX 21 8C F1 87 00 00 00 00
+17:27:07.823   RX 10 2A 62 F1 90 11 31 48
+17:27:07.830   TX 30 00 00 00 00 00 00 00
+17:27:07.838   RX 21 47 43 53 31 41 37 35
+17:27:07.844   RX 22 42 41 38 30 30 31 32
+17:27:07.851   RX 23 33 00 00 00 F1 81 33
+17:27:07.857   RX 24 37 38 30 35 2D 52 34
+17:27:07.863   RX 25 32 2D 41 32 34 30 00
+17:27:07.870   RX 26 00 55 55 55 55 55 55
+17:27:07.876 Received: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+17:27:07.884 J2534 Command result: 62 F1 90 11 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 58 00 00 00 F1 81 33 37 38 30 35 2D 52 34 32 2D 41 32 34 30 00 00
+17:27:55.701 DIAG: raw CAN 29bit channel opened
+17:27:55.705 DIAG: pass filter 18 DA F1 10 set
+17:27:55.709 Battery: 12.61 V
+17:27:55.714 Send: 10 03
+17:27:55.717 Received: 50 03
+17:27:55.720 Send: 27 01
+17:27:55.724 Received: 67 01 30 07
+17:27:55.731 Seed 30 07 -> key 28 AB
+17:27:55.733 Send: 27 02 28 AB
+17:27:55.737 Received: 67 02
+17:27:55.741 Security Authorized: ECU Unlocked
+17:27:55.744 DRY RUN: unlock OK, stopped before the programming session
+17:27:55.884 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased
+17:27:55.888 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261101_172754.log
+17:29:02.834 DIAG: raw CAN 29bit channel opened
+17:29:02.840 DIAG: pass filter 18 DA F1 10 set
+17:29:02.844 Battery: 12.65 V
+17:29:02.846 Send: 10 03
+17:29:02.850 Received: 50 03
+17:29:02.852 Send: 27 01
+17:29:02.856 Received: 67 01 65 07
+17:29:02.860 Seed 65 07 -> key 94 1B
+17:29:02.863 Send: 27 02 94 1B
+17:29:02.867 Received: 67 02
+17:29:02.869 Security Authorized: ECU Unlocked
+17:29:02.873 Battery before programming: 12.66 V
+17:29:02.876 Send: 10 02
+17:29:02.880 Response pending (1)...
+17:29:03.137 Received: 50 02
+17:29:03.141 Send: 31 01 FF 00
+17:29:03.145 Response pending (1)...
+17:29:11.057 Received: 71 01 FF 00
+17:29:11.061 Memory erased: 71 01 FF 00
+17:29:11.064 Send: 2E F1 01 2A 6C D7
+17:29:11.069 Received: 6E F1 01
+17:29:11.073 Send: 34 00 44 00 00 80 00 00 0F 80 00
+17:29:11.078 ISO-TP: flow control 30 00 00 55 55 55 55 55
+17:29:11.083 Received: 74 20 08 02
+17:29:11.086 Request download OK | max block 0x802 | 496 blocks
+17:29:25.666 Block 50/496 OK | battery 12.70 V
+17:29:40.255 Block 100/496 OK | battery 12.72 V
+17:29:55.075 Block 150/496 OK | battery 12.73 V
+17:30:09.683 Block 200/496 OK | battery 12.73 V
+17:30:24.211 Block 250/496 OK | battery 12.76 V
+17:30:38.640 Block 300/496 OK | battery 12.76 V
+17:30:52.009 Block 350/496 OK | battery 12.77 V
+17:31:05.778 Block 400/496 OK | battery 12.78 V
+17:31:19.017 Block 450/496 OK | battery 12.79 V
+17:31:32.146 Block 496/496 OK | battery 12.82 V
+17:31:32.150 Transfer finished: 496 blocks in 02:21
+17:31:32.153 Send: 37
+17:31:32.157 Received: 77
+17:31:32.159 Send: 31 01 FF 01
+17:31:32.164 Response pending (1)...
+17:31:32.246 Received: 71 01 FF 01
+17:31:32.249 Check dependencies responce: 71 01 FF 01
+17:31:32.396 FLASH RESULT: SUCCESS | step: done | all steps answered positively by the ECU | blocks 496/496
+17:31:32.401 Flash session log: C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_v2\flash_logs\flash_20261101_172901.log

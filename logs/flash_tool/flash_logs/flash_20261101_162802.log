@@ -1,0 +1,31 @@
+﻿16:28:02.202 FLASH SESSION 2026-11-01 16:28:02 | tool v1.1.7
+16:28:02.202 Adapter: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+16:28:02.202 ECU calibration: 37805-R42-A240 | CAN 0x10 | dry run: True | pin 12: not used
+16:28:02.202 FILE File: C:\Users\<user>\Desktop\2011_accord_coupe\flash\v5_maf115.rwd
+16:28:02.202 FILE SHA256: 804C3B6EE2D150428F6BD81A51A04CC268BF18F8E3D41C7F17173F0158A37A44
+16:28:02.202 FILE rwd file checksum OK (0x06A74EC9)
+16:28:02.202 FILE Supported versions: 37805-R42-A210, 37805-R42-A220, 37805-R42-A230, 37805-R42-A240
+16:28:02.202 FILE Start 0x8000 | size 0xF8000 | data 0xF8000
+16:28:02.202 FILE Part number in firmware: 37805-R42-A240
+16:28:02.202 FILE Internal checksum OK at 0x8400 (0x28, firmware byte sum = 0 mod 256)
+16:28:02.202 FILE Note: HondaReflashTool checksum algorithm would give 0x26 (it is wrong for this ECU, do not use its 'fix checksum')
+16:28:02.202 FILE Security keys for 37805-R42-A240: 30383250584C
+16:28:02.202 FILE Differences with stock 37805-R42-A240-M1.RWD.gz: 114 bytes at 0x08400, 0x0B13F, 0x0B141, 0x0B2C3, 0x13BFB, 0x13BFD, 0x13BFF, 0x13C01, 0x13C03, 0x13C05, 0x13C07, 0x13C09, 0x13C0B, 0x13C0D, 0x13C0F, 0x13C11, 0x13C13-0x13C15, 0x13C17, 0x13C19-0x13C1D, 0x13C1F-0x13C21, 0x13C23-0x13C25, 0x13C27-0x13C6F, 0x1419D, 0x1419F, 0x141A1-0x141A3, 0x15AC3, 0x15AC5, 0x15AC7, 0x15AC9, 0x15ACB
+16:28:03.098 Adapter firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+16:28:03.111 Battery: 12.65 V
+16:28:03.115 Send: 10 03
+16:28:03.115 TX 02 10 03 00 00 00 00 00
+16:28:03.116 RX 02 50 03 55 55 55 55 55
+16:28:03.118 Received: 50 03
+16:28:03.121 Send: 27 01
+16:28:03.121 TX 02 27 01 00 00 00 00 00
+16:28:03.122 RX 04 67 01 58 C3 55 55 55
+16:28:03.125 Received: 67 01 58 C3
+16:28:03.133 Seed 58 C3 -> key CF B7
+16:28:03.136 Send: 27 02 CF B7
+16:28:03.136 TX 04 27 02 CF B7 00 00 00
+16:28:03.137 RX 02 67 02 55 55 55 55 55
+16:28:03.139 Received: 67 02
+16:28:03.141 Security Authorized: ECU Unlocked
+16:28:03.144 DRY RUN: unlock OK, stopped before the programming session
+16:28:03.280 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased

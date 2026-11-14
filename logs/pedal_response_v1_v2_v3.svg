@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="940" viewBox="0 0 640 940" font-family="Segoe UI, Arial, sans-serif"><rect width="100%" height="100%" fill="#ffffff"/>
+<text x="10" y="28" font-size="15" fill="#222">Lift-off -&gt; fuel cut (median, lower = more direct)</text>
+<line x1="10" y1="52" x2="35" y2="52" stroke="#888780" stroke-width="3" stroke-dasharray="6,4"/>
+<text x="41" y="56" font-size="12" fill="#333">v1 (stock pedal, cut delay 80)</text>
+<line x1="205" y1="52" x2="230" y2="52" stroke="#eb6834" stroke-width="3" stroke-dasharray=""/>
+<text x="236" y="56" font-size="12" fill="#333">v2 (tip-in x2, cut delay 40)</text>
+<line x1="400" y1="52" x2="425" y2="52" stroke="#2a78d6" stroke-width="3" stroke-dasharray=""/>
+<text x="431" y="56" font-size="12" fill="#333">v3 (tip-in x2, cut delay 20)</text>
+<line x1="60" y1="335.0" x2="620" y2="335.0" stroke="#e1e0d9"/>
+<text x="52" y="339.0" font-size="12" fill="#666" text-anchor="end">0.00 s</text>
+<line x1="60" y1="283.0" x2="620" y2="283.0" stroke="#e1e0d9"/>
+<text x="52" y="287.0" font-size="12" fill="#666" text-anchor="end">0.28 s</text>
+<line x1="60" y1="231.0" x2="620" y2="231.0" stroke="#e1e0d9"/>
+<text x="52" y="235.0" font-size="12" fill="#666" text-anchor="end">0.56 s</text>
+<line x1="60" y1="179.0" x2="620" y2="179.0" stroke="#e1e0d9"/>
+<text x="52" y="183.0" font-size="12" fill="#666" text-anchor="end">0.84 s</text>
+<line x1="60" y1="127.0" x2="620" y2="127.0" stroke="#e1e0d9"/>
+<text x="52" y="131.0" font-size="12" fill="#666" text-anchor="end">1.12 s</text>
+<line x1="60" y1="75.0" x2="620" y2="75.0" stroke="#e1e0d9"/>
+<text x="52" y="79.0" font-size="12" fill="#666" text-anchor="end">1.40 s</text>
+<text x="153.3" y="355" font-size="12" fill="#444" text-anchor="middle">Moving</text>
+<text x="153.3" y="370" font-size="12" fill="#444" text-anchor="middle">&lt; 4000 rpm</text>
+<text x="340.0" y="355" font-size="12" fill="#444" text-anchor="middle">Moving</text>
+<text x="340.0" y="370" font-size="12" fill="#444" text-anchor="middle">&gt; 4000 rpm</text>
+<text x="526.7" y="355" font-size="12" fill="#444" text-anchor="middle">Stopped</text>
+<text x="526.7" y="370" font-size="12" fill="#444" text-anchor="middle">(neutral)</text>
+<polyline points="153.3,110.7 340.0,199.8 526.7,268.9" fill="none" stroke="#888780" stroke-width="3" stroke-dasharray="6,4" stroke-linejoin="round"/>
+<circle cx="153.3" cy="110.7" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<circle cx="340.0" cy="199.8" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<circle cx="526.7" cy="268.9" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<polyline points="153.3,180.5 340.0,205.0 526.7,269.4" fill="none" stroke="#eb6834" stroke-width="3" stroke-dasharray="" stroke-linejoin="round"/>
+<circle cx="153.3" cy="180.5" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<circle cx="340.0" cy="205.0" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<circle cx="526.7" cy="269.4" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<polyline points="153.3,218.0 340.0,237.1 526.7,280.4" fill="none" stroke="#2a78d6" stroke-width="3" stroke-dasharray="" stroke-linejoin="round"/>
+<circle cx="153.3" cy="218.0" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<circle cx="340.0" cy="237.1" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<circle cx="526.7" cy="280.4" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<text x="153.3" y="407" font-size="12" fill="#888780" text-anchor="middle">v1: 1.21 s <tspan fill="#999">(n24)</tspan></text>
+<text x="153.3" y="422" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.83 s <tspan fill="#999">(n23)</tspan></text>
+<text x="153.3" y="437" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.63 s <tspan fill="#999">(n44)</tspan></text>
+<text x="340.0" y="407" font-size="12" fill="#888780" text-anchor="middle">v1: 0.73 s <tspan fill="#999">(n10)</tspan></text>
+<text x="340.0" y="422" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.70 s <tspan fill="#999">(n3)</tspan></text>
+<text x="340.0" y="437" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.53 s <tspan fill="#999">(n3)</tspan></text>
+<text x="526.7" y="407" font-size="12" fill="#888780" text-anchor="middle">v1: 0.36 s <tspan fill="#999">(n6)</tspan></text>
+<text x="526.7" y="422" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.35 s <tspan fill="#999">(n1)</tspan></text>
+<text x="526.7" y="437" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.29 s <tspan fill="#999">(n2)</tspan></text>
+<text x="10" y="498" font-size="15" fill="#222">Pedal pressed -&gt; throttle follows (median delay, lower = more direct)</text>
+<line x1="10" y1="522" x2="35" y2="522" stroke="#888780" stroke-width="3" stroke-dasharray="6,4"/>
+<text x="41" y="526" font-size="12" fill="#333">v1 (stock pedal, cut delay 80)</text>
+<line x1="205" y1="522" x2="230" y2="522" stroke="#eb6834" stroke-width="3" stroke-dasharray=""/>
+<text x="236" y="526" font-size="12" fill="#333">v2 (tip-in x2, cut delay 40)</text>
+<line x1="400" y1="522" x2="425" y2="522" stroke="#2a78d6" stroke-width="3" stroke-dasharray=""/>
+<text x="431" y="526" font-size="12" fill="#333">v3 (tip-in x2, cut delay 20)</text>
+<line x1="60" y1="805.0" x2="620" y2="805.0" stroke="#e1e0d9"/>
+<text x="52" y="809.0" font-size="12" fill="#666" text-anchor="end">0.00 s</text>
+<line x1="60" y1="753.0" x2="620" y2="753.0" stroke="#e1e0d9"/>
+<text x="52" y="757.0" font-size="12" fill="#666" text-anchor="end">0.18 s</text>
+<line x1="60" y1="701.0" x2="620" y2="701.0" stroke="#e1e0d9"/>
+<text x="52" y="705.0" font-size="12" fill="#666" text-anchor="end">0.36 s</text>
+<line x1="60" y1="649.0" x2="620" y2="649.0" stroke="#e1e0d9"/>
+<text x="52" y="653.0" font-size="12" fill="#666" text-anchor="end">0.54 s</text>
+<line x1="60" y1="597.0" x2="620" y2="597.0" stroke="#e1e0d9"/>
+<text x="52" y="601.0" font-size="12" fill="#666" text-anchor="end">0.72 s</text>
+<line x1="60" y1="545.0" x2="620" y2="545.0" stroke="#e1e0d9"/>
+<text x="52" y="549.0" font-size="12" fill="#666" text-anchor="end">0.90 s</text>
+<text x="130.0" y="825" font-size="12" fill="#444" text-anchor="middle">Moving,</text>
+<text x="130.0" y="840" font-size="12" fill="#444" text-anchor="middle">light pedal</text>
+<text x="270.0" y="825" font-size="12" fill="#444" text-anchor="middle">Moving,</text>
+<text x="270.0" y="840" font-size="12" fill="#444" text-anchor="middle">pedal &gt; 50 %</text>
+<text x="410.0" y="825" font-size="12" fill="#444" text-anchor="middle">Stopped</text>
+<text x="410.0" y="840" font-size="12" fill="#444" text-anchor="middle">(neutral)</text>
+<text x="550.0" y="825" font-size="12" fill="#444" text-anchor="middle">Pull-away &lt; 10 km/h</text>
+<text x="550.0" y="840" font-size="12" fill="#444" text-anchor="middle">(clutch, not</text>
+<text x="550.0" y="855" font-size="12" fill="#444" text-anchor="middle">a real delay)</text>
+<polyline points="130.0,707.4 270.0,788.2 410.0,780.4 550.0,608.8" fill="none" stroke="#888780" stroke-width="3" stroke-dasharray="6,4" stroke-linejoin="round"/>
+<circle cx="130.0" cy="707.4" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<circle cx="270.0" cy="788.2" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<circle cx="410.0" cy="780.4" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<circle cx="550.0" cy="608.8" r="5" fill="#888780" stroke="#fff" stroke-width="2"/>
+<polyline points="130.0,772.1 270.0,772.1 410.0,788.5 550.0,673.8" fill="none" stroke="#eb6834" stroke-width="3" stroke-dasharray="" stroke-linejoin="round"/>
+<circle cx="130.0" cy="772.1" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<circle cx="270.0" cy="772.1" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<circle cx="410.0" cy="788.5" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<circle cx="550.0" cy="673.8" r="5" fill="#eb6834" stroke="#fff" stroke-width="2"/>
+<polyline points="130.0,771.8 270.0,788.5 410.0,787.7 550.0,584.3" fill="none" stroke="#2a78d6" stroke-width="3" stroke-dasharray="" stroke-linejoin="round"/>
+<circle cx="130.0" cy="771.8" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<circle cx="270.0" cy="788.5" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<circle cx="410.0" cy="787.7" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<circle cx="550.0" cy="584.3" r="5" fill="#2a78d6" stroke="#fff" stroke-width="2"/>
+<text x="130.0" y="877" font-size="12" fill="#888780" text-anchor="middle">v1: 0.34 s <tspan fill="#999">(n23)</tspan></text>
+<text x="130.0" y="892" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.11 s <tspan fill="#999">(n24)</tspan></text>
+<text x="130.0" y="907" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.12 s <tspan fill="#999">(n27)</tspan></text>
+<text x="270.0" y="877" font-size="12" fill="#888780" text-anchor="middle">v1: 0.06 s <tspan fill="#999">(n12)</tspan></text>
+<text x="270.0" y="892" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.11 s <tspan fill="#999">(n18)</tspan></text>
+<text x="270.0" y="907" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.06 s <tspan fill="#999">(n25)</tspan></text>
+<text x="410.0" y="877" font-size="12" fill="#888780" text-anchor="middle">v1: 0.09 s <tspan fill="#999">(n10)</tspan></text>
+<text x="410.0" y="892" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.06 s <tspan fill="#999">(n5)</tspan></text>
+<text x="410.0" y="907" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.06 s <tspan fill="#999">(n3)</tspan></text>
+<text x="550.0" y="877" font-size="12" fill="#888780" text-anchor="middle">v1: 0.68 s <tspan fill="#999">(n10)</tspan></text>
+<text x="550.0" y="892" font-size="12" fill="#eb6834" text-anchor="middle">v2: 0.45 s <tspan fill="#999">(n6)</tspan></text>
+<text x="550.0" y="907" font-size="12" fill="#2a78d6" text-anchor="middle">v3: 0.76 s <tspan fill="#999">(n10)</tspan></text>
+</svg>

@@ -1,0 +1,30 @@
+﻿18:05:34.454 FLASH SESSION 2026-10-30 18:05:34 | tool v1.1.7
+18:05:34.454 Adapter: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+18:05:34.454 ECU calibration: 37805-R42-A240 | CAN 0x10 | dry run: True | pin 12: not used
+18:05:34.454 FILE File: C:\Users\<user>\Desktop\2011_accord_coupe\flash\v2_tipin_fuelcut.rwd
+18:05:34.454 FILE SHA256: BD4D4F384C835F96B7AC4F1E560512A2A11F92E5BEA7B89548ABE2BF9ECBD4EC
+18:05:34.454 FILE rwd file checksum OK (0x06A751A9)
+18:05:34.454 FILE Supported versions: 37805-R42-A210, 37805-R42-A220, 37805-R42-A230, 37805-R42-A240
+18:05:34.454 FILE Start 0x8000 | size 0xF8000 | data 0xF8000
+18:05:34.454 FILE Part number in firmware: 37805-R42-A240
+18:05:34.454 FILE Internal checksum OK at 0x8400 (0x6A, firmware byte sum = 0 mod 256)
+18:05:34.454 FILE Security keys for 37805-R42-A240: 30383250584C
+18:05:34.454 FILE Differences with stock 37805-R42-A240-M1.RWD.gz: 10 bytes at 0x08400, 0x0B2C3, 0x1419D, 0x1419F, 0x141A1-0x141A3, 0x15AC3, 0x15AC5, 0x15AC7
+18:05:35.391 Adapter firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+18:05:35.404 Battery: 12.85 V
+18:05:35.408 Send: 10 03
+18:05:35.408 TX 02 10 03 00 00 00 00 00
+18:05:35.409 RX 02 50 03 55 55 55 55 55
+18:05:35.412 Received: 50 03
+18:05:35.415 Send: 27 01
+18:05:35.415 TX 02 27 01 00 00 00 00 00
+18:05:35.416 RX 04 67 01 26 8B 55 55 55
+18:05:35.418 Received: 67 01 26 8B
+18:05:35.438 Seed 26 8B -> key 4A AB
+18:05:35.441 Send: 27 02 4A AB
+18:05:35.441 TX 04 27 02 4A AB 00 00 00
+18:05:35.443 RX 02 67 02 55 55 55 55 55
+18:05:35.445 Received: 67 02
+18:05:35.448 Security Authorized: ECU Unlocked
+18:05:35.451 DRY RUN: unlock OK, stopped before the programming session
+18:05:35.628 FLASH RESULT: FAILED | step: dry run | DRY RUN: unlock OK, stopped before the programming session | blocks 0/0 | ECU not erased

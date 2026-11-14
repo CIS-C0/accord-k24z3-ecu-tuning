@@ -1,0 +1,4 @@
+* text=auto
+*.bin binary
+*.rwd binary
+*.gz binary

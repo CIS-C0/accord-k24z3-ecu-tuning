@@ -1,0 +1,50 @@
+15:17:31.835 Loading definitions files...
+15:17:31.982 1205 definitions loaded!
+15:17:32.007 J2534 adapter selected: GODIAG - J2534
+15:17:32.065 Platform selected: SH7058-1MB | Manual (0x10)
+15:17:32.065 --------------------------------------
+15:17:37.982 J2534 adapter selected: GODIAG - J2534
+15:17:40.912 Platform selected: SH7058-1MB | Manual (0x10)
+15:17:46.928 --------------------------------------
+15:17:46.939 DIAG: adapter DLL: C:\Program Files (x86)\GODIAG\GODIAG J2534 Driver\GODIAG_PT32.dll
+15:17:46.943 DIAG: device name: 
+15:17:46.946 DIAG: firmware: SN:XXXXXXXX,FW:1.14 | driver: 1.0.0.3 | API: 04.04
+15:17:46.952 DIAG: battery voltage (pin 16): 11.53 V
+15:17:46.956 DIAG: ISO15765 500k CAN_29BIT_ID channel opened
+15:17:46.963 DIAG: GetConfig error: No parameterless constructor defined for this object. [.NET message translated from French]
+15:17:46.967 DIAG: filter id=0 type=FLOW_CONTROL_FILTER mask=0xFF 0xFF 0xFF 0xFF pattern=0x18 0xDA 0xF1 0x10 flow=0x18 0xDA 0x10 0xF1 
+15:17:46.974 Send: 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+15:17:47.981 DIAG: GetMessages(5, 1000) result=STATUS_NOERROR (Function completed successfully.) count=4
+15:17:47.985     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+15:17:47.991     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+15:17:47.997     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+15:17:47.998     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+15:17:49.014 DIAG: GetMessages(5, 1000) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:50.031 DIAG: GetMessages(1, 1000) result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:50.037 Result NOT OK!! (BUFFER_EMPTY: The PassThru device could not read any messages from the vehicle network.)
+15:17:50.037 DIAG: no response to 22 F1 90 on 0x18DA10F1
+15:17:50.051 DIAG: raw receive probe on 29bit channel
+15:17:50.055 DIAG: sent 0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+15:17:50.065 DIAG: read 1/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+15:17:50.072     rx flags=TX_MSG_TYPE, TX_INDICATION, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 
+15:17:50.074 DIAG: read 2/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+15:17:50.085     rx flags=TX_MSG_TYPE, CAN_29BIT_ID ts=0 data=0x18 0xDA 0x10 0xF1 0x22 0xF1 0x90 
+15:17:50.089 DIAG: read 3/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+15:17:50.100     rx flags=START_OF_MESSAGE ts=0 data=0x18 0xDA 0xF1 0x10 
+15:17:50.104 DIAG: read 4/10 result=STATUS_NOERROR (Function completed successfully.) count=1
+15:17:50.104     rx flags=NONE ts=0 data=0x18 0xDA 0xF1 0x10 0x62 0xF1 0x90 0x11 0x31 0x48 0x47 0x43 0x53 0x31 0x41 0x37 0x35 0x42 0x41 0x38 0x30 0x30 0x31 0x32 0x33 0x00 0x00 0x00 
+15:17:50.331 DIAG: read 5/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:50.548 DIAG: read 6/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:50.764 DIAG: read 7/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:50.981 DIAG: read 8/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:51.197 DIAG: read 9/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:51.413 DIAG: read 10/10 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:51.431 DIAG: OBD2 11bit probe (7E0 -> 09 02)
+15:17:51.438 DIAG: sent 0x00 0x00 0x07 0xE0 0x09 0x02
+15:17:51.445 DIAG: 11bit read 1/5 result=STATUS_NOERROR (Function completed successfully.) count=1
+15:17:51.451     rx flags=TX_MSG_TYPE, TX_INDICATION ts=0 data=0x00 0x00 0x07 0xE0 
+15:17:51.764 DIAG: 11bit read 2/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:52.081 DIAG: 11bit read 3/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:52.396 DIAG: 11bit read 4/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:52.705 DIAG: 11bit read 5/5 result=BUFFER_EMPTY (The PassThru device could not read any messages from the vehicle network.) count=0
+15:17:52.715 DIAG: done, log saved to C:\Users\<user>\Desktop\2011_accord_coupe\FlashToolTest_diag\J2534_debug.log
