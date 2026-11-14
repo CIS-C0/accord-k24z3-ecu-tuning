@@ -1,5 +1,20 @@
 # 2011 Honda Accord coupe (K24Z3, 5MT): ECU reverse engineering and reflash with an AI agent
 
+> [!CAUTION]
+> ## DISCLAIMER: USE AT YOUR OWN RISK, THE AUTHOR IS NOT RESPONSIBLE
+> **This repository is shared for educational and research purposes only. The author accepts NO responsibility and
+> NO liability for any damage, loss, injury, fine or legal consequence resulting from its use.**
+>
+> - Reflashing an ECU can brick it, damage the engine or the vehicle, and cause a breakdown, a fire, injury or death.
+> - Modifying fuelling, emissions calibration or a speed limiter can be **illegal** where you live, void your
+>   warranty and affect your insurance. Obeying the law is your responsibility.
+> - Everything is provided **"AS IS", with no warranty of any kind**. Much of it was produced with an AI agent and
+>   may contain errors. Nothing here is professional, legal or safety advice.
+> - The firmware files are for ECU **37805-R42-A240** only. Not affiliated with Honda or any vendor.
+>
+> **By using anything in this repository you accept the full [DISCLAIMER](DISCLAIMER.md). If you do not accept it,
+> do not use this repository.**
+
 This repository documents a complete, real-world project: reading, understanding, modifying and reflashing the
 engine ECU of a 2011 Honda Accord EX coupe (2.4 L K24Z3, 5-speed manual, Canadian market) over the OBD-II port with a
 cheap J2534 adapter. Almost all of the work (reverse engineering, tool fixes, test harness, firmware builds, log
@@ -8,11 +23,6 @@ analysis) was done by an AI coding agent (Claude Code), driven and supervised by
 Everything is here: the method, the agent rules, the forked flash tool source, the Ghidra scripts, the analysis
 scripts, the logs, every firmware file that was built and flashed, and what was learned on the way (including an ECU
 that was erased mid-flash and recovered the same day).
-
-> **Warning.** Reflashing an engine ECU can leave a car that does not start. Removing a speed limiter or changing
-> fuelling can be illegal where you live and can damage an engine. Nothing here is a recommendation to do the same.
-> The firmware files are specific to ECU **37805-R42-A240**; do not flash them on anything else. You are fully
-> responsible for what you do with this material.
 
 ## Results at a glance
 

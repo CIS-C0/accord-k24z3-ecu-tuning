@@ -5,7 +5,7 @@ the decisions and the hands on the car; the agent (Claude Code, desktop app, on 
 the code, the tests and the analysis, one approved step at a time. Every claim below is backed by an entry in
 [KNOWLEDGE.md](KNOWLEDGE.md).
 
-> Read the warning in the [README](../README.md) first. The method is general; the addresses, keys and files are
+> Read the [DISCLAIMER](../DISCLAIMER.md) first: you use all of this at your own risk. The method is general; the addresses, keys and files are
 > for ECU 37805-R42-A240 only.
 
 ## 1. What you need
